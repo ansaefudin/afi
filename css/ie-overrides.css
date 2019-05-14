@@ -1,0 +1,439 @@
+/** Presentational IE 7/8 Overrides **/
+.lteie8 .header__preparedfor {
+    font-size: 14px;
+}
+
+.lteie8 .social--top {
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C1F1F1F,endColorstr=#4C1F1F1F);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C1F1F1F,endColorstr=#4C1F1F1F);
+}
+
+.lteie8 .bottom-wrapper {
+    background-color: transparent;
+}
+
+.lteie8 .cta--side .cta__button {
+    font-size: 16px;
+}
+
+.lteie8 .timeline {
+    font-size: 18px;
+}
+
+.lteie8 .timeline__button-icon {
+    background-image: url("../images/timeline_controls_ie_25.png");
+}
+
+.lteie8 .timeline__button-icon--play {
+    background-position-x: 0;
+}
+
+.lteie8 .timeline__button-icon--pause {
+    background-position-x: 3.846%;
+}
+
+.lteie8 .timeline__button-icon--skip-back {
+    background-position-x: 7.692%;
+}
+
+.lteie8 .timeline__button-icon--skip-forward {
+    background-position-x: 11.538%;
+}
+
+.lteie8 .timeline__button-icon--settings {
+    background-position-x: 19.231%;
+}
+
+.lteie8 .timeline__button-icon--settings--sd {
+    background-position-x: 23.077%;
+}
+
+.lteie8 .timeline__button-icon--settings--hd {
+    background-position-x: 26.923%;
+}
+
+.lteie8 .timeline__button-icon--settings--4k {
+    background-position-x: 30.769%;
+}
+
+.lteie8 .timeline__button-icon--sd {
+    background-position-x: 34.615%;
+}
+
+.lteie8 .timeline__button-icon--hd {
+    background-position-x: 38.462%;;
+}
+
+.lteie8 .timeline__button-icon--4k {
+    background-position-x: 42.308%;
+}
+
+.lteie8 .timeline__button-icon--language {
+    background-position-x: 46.154%;
+}
+
+.lteie8 .timeline__button-icon--cc {
+    background-position-x: 50%;
+}
+
+.lteie8 .timeline__button-icon--tick {
+    background-position-x: 53.846%;
+}
+
+.lteie8 .timeline__button-icon--right-arrow {
+    background-position-x: 57.692%;
+}
+
+.lteie8 .timeline__button-icon--left-arrow {
+    background-position-x: 61.538%;
+}
+
+.lteie8 .timeline__button-icon--fullscreen {
+    background-position-x: 65.385%;
+}
+
+.lteie8 .timeline__button-icon--volume-0 {
+    background-position-x: 73.077%;
+}
+
+.lteie8 .timeline__button-icon--volume-1 {
+    background-position-x: 76.923%;
+}
+
+.lteie8 .timeline__button-icon--volume-2 {
+    background-position-x: 80.769%;
+}
+
+.lteie8 .timeline__button-icon--volume-3 {
+    background-position-x: 84.615%;
+}
+
+.lteie8 .timeline__button--skip-back,
+.lteie8 .timeline__button--skip-forward {
+    width: 38px;
+}
+
+.lteie8 .timeline__button--play-pause {
+    width: 34px;
+}
+
+.lteie8 .timeline__button-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.lteie8 .timeline__button-icon--play,
+.lteie8 .timeline__button-icon--pause {
+    width: 30px;
+    height: 30px;
+}
+
+.lteie8 .timeline__button-icon--skip-back {
+    margin-right: 4px;
+}
+
+.lteie8 .timeline__button-icon--skip-forward {
+    margin-left: 4px;
+}
+
+.lteie8 .timeline__button--settings,
+.lteie8 .timeline__button--fullscreen {
+    width: 45px;
+}
+
+.lteie8 .timeline__button--volume {
+    width: 40px;
+}
+
+.lteie8 .timeline__settings-popout,
+.lteie8 .timeline__settings-quality,
+.lteie8 .timeline__settings-language,
+.lteie8 .timeline__settings-cc {
+    top: -180px;
+    right: 165px;
+    padding: 13px;
+    height: 180px;
+    font-size: 15px;
+}
+
+.lteie8 .timeline__settings-heading {
+    padding-bottom: 8px;
+}
+
+.lteie8 .timeline__settings-icon--arrow .timeline__button-icon,
+.lteie8 .timeline__settings-icon--small .timeline__button-icon {
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/timeline_controls_ie_15.png");
+}
+
+.lteie8 .timeline__settings-icon--left.timeline__settings-icon--small {
+    margin: 5px 10px 5px 0;
+}
+
+.lteie8 .timeline__controls--center {
+    z-index: auto;
+    background-color: inherit;
+}
+
+.lteie8 .footer {
+    font-size: 14px;
+}
+
+.lteie8 .footer__copyright {
+    text-align: left;
+}
+
+.lteie8 .footer__poweredby {
+    text-align: center;
+}
+
+.lteie8 .footer__links {
+    text-align: right;
+}
+
+/** Structural IE 7/8 Overrides */
+.lteie8 .header,
+.lteie8 .main,
+.lteie8 .timeline,
+.lteie8 .footer {
+    width: 820px;
+}
+
+.lteie8 .social--top {
+    display: block;
+}
+
+.lteie7 .social__icon {
+    display: inline;
+}
+
+.lteie8 .social__icon {
+    background-image: url("../images/social_icons_ie.png");
+}
+
+.lteie8 .social--top .social__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.lteie8 .social--top-right .social__icon {
+    margin-right: 3px;
+}
+
+.lteie8 .social--top-left .social__icon {
+    margin-left: 3px;
+}
+
+.lteie8 .social--top .social__icon--expand {
+    display: none;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.lteie8 .social--collapsed .social__icon {
+    display: none;
+}
+
+.lteie8 .social--bottom {
+    display: none;
+}
+
+.lteie8 .cta__button {
+    border: 0;
+}
+
+.lteie8 .cta__icon {
+    margin-bottom: 6px;
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/cta_icons_ie.png");
+}
+
+.lteie8 .cta--side,
+.lteie8 .promo--side {
+    display: block;
+    width: 90px;
+}
+
+.lteie8 .cta--bottom,
+.lteie8 .promo--bottom {
+    display: none;
+}
+
+.lteie8 .cta--side {
+    position: relative;
+}
+
+.lteie8 .cta--side .cta__button {
+    margin-bottom: 4px;
+}
+
+.lteie8 .cta--side.cta--1 .cta__button {
+    height: 360px;
+}
+
+.lteie8 .cta--side.cta--2 .cta__button {
+    margin-bottom: 4px;
+    height: 178px;
+}
+
+.lteie8 .cta--side.cta--3 .cta__button {
+    margin-bottom: 3px;
+    height: 118px;
+}
+
+.lteie8 .cta--side.cta--4 .cta__button {
+    margin-bottom: 4px;
+    height: 87px;
+}
+
+.lteie8 .cta--side.cta--5 .cta__button {
+    margin-bottom: 5px;
+    height: 68px;
+}
+
+.lteie8 .cta--side.cta--2 .cta__button.cta__button--button-2,
+.lteie8 .cta--side.cta--3 .cta__button.cta__button--button-3,
+.lteie8 .cta--side.cta--4 .cta__button.cta__button--button-4,
+.lteie8 .cta--side.cta--5 .cta__button.cta__button--button-5 {
+    margin-bottom: 0;
+}
+
+.lteie8 .promo--side .promo__item {
+    height: 178px;
+}
+
+.lteie8 .promo--side .promo__item--top {
+    margin-bottom: 4px;
+}
+
+.lteie8 .player {
+    margin: 0;
+    width: 640px;
+}
+
+.lteie8 .player__wrapper {
+    padding: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.lteie8 .player_iframe {
+    position: relative;
+}
+
+.lteie7 .chapter-button {
+    display: inline;
+}
+
+.lteie8 .timeline {
+    float: none;
+}
+
+.lteie8 .timeline__controls--left {
+    width: 115px;
+}
+
+.lteie8 .timeline__controls--center {
+    width: 500px;
+}
+
+.lteie8 .timeline__controls--right {
+    width: 205px;
+}
+
+.lteie8 .timeline-volume {
+    width: 70px;
+}
+
+.lteie8 .timeline__controls--right-no-fs .timeline-volume {
+    width: 100px;
+}
+
+.lteie8 .timeline__controls--center {
+    position: relative;
+    height: auto;
+}
+
+.lteie8 .timeline,
+.lteie8 .timeline__controls {
+    height: 50px;
+}
+
+.lteie8 .timeline__button {
+    margin: 0;
+    height: 100%;
+}
+
+.lteie8 .timeline-buffering {
+    top: 44px;
+    height: 6px;
+}
+
+.lteie7 .timeline__buffer-section {
+    display: inline;
+}
+
+.lteie8 .timeline-chapters {
+    line-height: 50px;
+}
+
+.lteie7 .timeline-chapters__chapter {
+    display: inline;
+}
+
+.lteie8 .timeline-volume__bg {
+    margin-top: 20px;
+}
+
+.lteie8 .timeline-volume__level {
+    top: 20px;
+}
+
+.lteie8 .timeline-volume,
+.lteie8 .timeline__button--volume,
+.lteie8 .timeline__button--fullscreen {
+    display: block;
+}
+
+.lteie8 .timeline-progress-indicator,
+.lteie8 .timeline-progress-indicator-ball {
+    z-index: 40;
+    display: none;
+}
+
+.lteie8 .timeline-progress-hover,
+.lteie8 .timeline-chapters__chapter > .timeline-chapters__label {
+    display: block;
+}
+
+.lteie8 .timeline__controls--active-state {
+    display: none;
+}
+
+.lteie8 .footer__copyright,
+.lteie8 .footer__links {
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.lteie8 .footer__copyright {
+    float: left;
+    width: 33%;
+}
+
+.lteie8 .footer__poweredby-break {
+    display: block;
+}
+
+.lteie8 .footer__pblogo {
+    margin-right: 0;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.lteie8 .footer__links {
+    float: right;
+    width: 33%;
+}

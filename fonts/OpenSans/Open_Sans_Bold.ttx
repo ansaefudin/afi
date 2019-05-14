@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.13">
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.1"/>
+    <checkSumAdjustment value="0x3aa939b3"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00001001"/>
+    <unitsPerEm value="2048"/>
+    <created value="Thu Dec 30 11:04:00 2010"/>
+    <modified value="Thu May  5 12:37:53 2011"/>
+    <xMin value="-1268"/>
+    <yMin value="-600"/>
+    <xMax value="2701"/>
+    <yMax value="2189"/>
+    <macStyle value="00000000 00000001"/>
+    <lowestRecPPEM value="9"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="2189"/>
+    <descent value="-600"/>
+    <lineGap value="0"/>
+    <advanceWidthMax value="2701"/>
+    <minLeftSideBearing value="-1268"/>
+    <minRightSideBearing value="-391"/>
+    <xMaxExtent value="2701"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="931"/>
+  </hhea>
+
+</ttFont>

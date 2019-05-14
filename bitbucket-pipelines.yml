@@ -1,0 +1,15 @@
+image: node:latest
+
+clone:
+    depth: 50
+
+pipelines:
+    branches:
+        master:
+            - step:
+                script:
+                    - npm install && npm test
+        develop:
+            - step:
+                script:
+                    - npm install && npm test
