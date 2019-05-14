@@ -59,7 +59,7 @@ sub {
 .cta--side {
     float: left;
     width: 50px;
-    height: 250px;
+    height: 290px;
     padding-right: 1px;
 }
 
@@ -159,6 +159,7 @@ sub {
 .player__wrapper {
     width: 480px;
     height: 290px;
+    padding-bottom: -25px;
 }
 
 .fullscreen .player__wrapper {
