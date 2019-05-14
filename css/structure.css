@@ -159,7 +159,6 @@ sub {
 .player__wrapper {
     width: 480px;
     height: 290px;
-    padding-bottom: -25px;
 }
 
 .fullscreen .player__wrapper {
