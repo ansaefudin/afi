@@ -158,7 +158,7 @@ sub {
 
 .player__wrapper {
     width: 480px;
-    height: 290px;
+    height: 320px;
 }
 
 .fullscreen .player__wrapper {
