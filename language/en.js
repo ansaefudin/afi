@@ -62,7 +62,7 @@ var Translations = {
             "icon": "email"
         },
         "button4": {
-            "url": "http://axa.co.id/",
+            "url": "http://example.com/",
             "label": "Share",
             "icon": "share"
         }
@@ -118,37 +118,14 @@ var Translations = {
             ]
         },
         {
-            "label": "Verif",
+            "label": "Your Account",
             "states": [
                 {
-                    "cardId": "a7e0f675",
+                    "cardId": "77a834f0",
                     "width": 20
-                }
-            ]
-        },
-        {
-            "label": "Info",
-            "states": [
+                },
                 {
-                    "cardId": "50c10b64",
-                    "width": 20
-                }
-            ]
-        },
-        {
-            "label": "Detail",
-            "states": [
-                {
-                    "cardId": "50c10b64",
-                    "width": 20
-                }
-            ]
-        },
-        {
-            "label": "Klaim",
-            "states": [
-                {
-                    "cardId": "dfc9104e",
+                    "cardId": "c23a68c9",
                     "width": 20
                 }
             ]
@@ -157,8 +134,8 @@ var Translations = {
             "label": "Thank You",
             "states": [
                 {
-                    "cardId": "b9d88f61",
-                    "width": 20
+                    "cardId": "7b0123a5",
+                    "width": 40
                 }
             ]
         }

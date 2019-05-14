@@ -61,7 +61,7 @@ var socialIconSettings = {
  */
 var timelineSettings = {
     "SeenChaptersEnabled": false,
-    "ContrastProgressBarEnabled": true,
+    "ContrastProgressBarEnabled": false,
     "BufferBarEnabled": true,
     "ClosedCaptionsSupported": true,
     "MultiLanguageSupported": true,

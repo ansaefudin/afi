@@ -1138,7 +1138,7 @@ var CtaButtons = {
             i++;
         });
 
-        $(".jsCtaContainer").removeClass("cta--1 cta--2 cta--3 cta--4 cta--5");
+        $(".jsCtaContainer").removeClass("cta--1 cta--2 cta--3 cta--4");
         $(".jsCtaContainer").addClass("cta--" + i);
     },
 
