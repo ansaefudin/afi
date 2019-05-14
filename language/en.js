@@ -109,24 +109,11 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Introduction",
+            "label": "Welcome",
             "states": [
                 {
                     "cardId": "START",
-                    "width": 20
-                }
-            ]
-        },
-        {
-            "label": "Your Account",
-            "states": [
-                {
-                    "cardId": "77a834f0",
-                    "width": 20
-                },
-                {
-                    "cardId": "c23a68c9",
-                    "width": 20
+                    "width": 12
                 }
             ]
         },
@@ -134,8 +121,73 @@ var Translations = {
             "label": "Thank You",
             "states": [
                 {
+                    "cardId": "77a834f0",
+                    "width": 8
+                },
+                {
+                    "cardId": "c23a68c9",
+                    "width": 8
+                }
+            ]
+        },
+        {
+            "label": "Verification",
+            "states": [
+                {
+                    "cardId": "77a834f0",
+                    "width": 8
+                },
+                {
+                    "cardId": "c23a68c9",
+                    "width": 8
+                }
+            ]
+        },
+        {
+            "label": "Product Info",
+            "states": [
+                {
+                    "cardId": "77a834f0",
+                    "width": 8
+                },
+                {
+                    "cardId": "c23a68c9",
+                    "width": 8
+                }
+            ]
+        },
+        {
+            "label": "Product Detail",
+            "states": [
+                {
+                    "cardId": "77a834f0",
+                    "width": 8
+                },
+                {
+                    "cardId": "c23a68c9",
+                    "width": 8
+                }
+            ]
+        },
+        {
+            "label": "Legal Statment",
+            "states": [
+                {
+                    "cardId": "77a834f0",
+                    "width": 8
+                },
+                {
+                    "cardId": "c23a68c9",
+                    "width": 8
+                }
+            ]
+        },
+        {
+            "label": "Closeing",
+            "states": [
+                {
                     "cardId": "7b0123a5",
-                    "width": 40
+                    "width": 8
                 }
             ]
         }

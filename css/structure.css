@@ -229,6 +229,7 @@ sub {
 .timeline__controls--center {
     position: relative;
     width: 310px;
+    font-size: 7px;
 }
 
 .fullscreen .timeline__controls--center {
