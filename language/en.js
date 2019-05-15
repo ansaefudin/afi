@@ -62,11 +62,6 @@ var Translations = {
             "icon": "email"
         },
         "button4": {
-            "card": "d1b4d742",
-            "label": "Save",
-            "icon": "save"
-        },
-        "button5": {
             "url": "http://example.com/",
             "label": "Share",
             "icon": "share"
