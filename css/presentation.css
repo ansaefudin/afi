@@ -35,10 +35,10 @@
 
 /** Main Styling (for 1080p) **/
 .body {
-    background:#FFFFFF url("../images/back2.png") no-repeat;
+    background:#FFFFFF url("../images/back.png") no-repeat;
     font-family: "OpenSans_Regular", Arial;
-    background-position: left;
-    background-size: 1150px;
+    background-position: center center;
+    background-size: cover;
 }
 
 .top-wrapper {
@@ -590,3 +590,221 @@
     text-decoration: none;
 }
 
+/* iOS devices specific */
+@supports (-webkit-overflow-scrolling: touch) {
+    .cta--side.cta--5 .cta__button {
+        height: calc(20% - 0.5px);
+    }
+}
+
+/** Mobile devices **/
+@media screen and (max-width: 820px) {
+    .cta--side.cta--5 .cta__button {
+        margin-right:0;
+        border: none;
+    }
+
+    .fullscreen .cta--side .cta__label {
+        font-size: 12px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward {
+        width: 30%;
+    }
+
+    .timeline__button--play-pause {
+        width: 40%;
+    }
+
+    .timeline__button--settings {
+        width: 100%;
+    }
+
+    .timeline__button-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline__button-icon--skip-back,
+    .timeline__button-icon--skip-forward {
+        width: 22px;
+        height: 22px;
+    }
+
+    .timeline__button-icon--skip-back {
+        margin-right: 4px;
+    }
+
+    .timeline__button-icon--skip-forward {
+        margin-left: 4px;
+    }
+
+    .timeline-progress-indicator-ball {
+        background-color: #fff;
+        border: 3px solid #0072b8;
+        border-radius: 12px;
+    }
+
+    .timeline__controls--center {
+        z-index: 5;
+        background-color: #1f1f1f;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc,
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 0;
+    }
+
+    .footer__poweredby,
+    .footer__copyright,
+    .footer__links {
+        text-align: center;
+    }
+}
+
+/** Mobile devices in landscape and tablet devices in portrait **/
+@media screen and (max-width: 820px) {
+
+    .header__text {
+        padding: 10px 0;
+    }
+
+    .cta--bottom.cta--5 .cta__button {
+        margin: 1px 0;
+        width: 20%;
+        border: none;
+    }
+
+    .header__logo {
+        width:80%;
+        margin:10px auto 0;
+        float:none;
+        height:40px;
+        background-position: center;
+    }
+}
+
+/** Mobile devices in landscape **/
+@media screen and (max-width: 820px) and (orientation: landscape) {
+
+    .cta--1 .cta__button--button-1,
+    .cta--2 .cta__button--button-2,
+    .cta--3 .cta__button--button-3,
+    .cta--4 .cta__button--button-4,
+    .cta--5 .cta__button--button-5 {
+        border-bottom: 0;
+    }
+}
+
+/** Mobile devices in portrait **/
+@media screen and (max-width: 700px) and (orientation: portrait) {
+    .header__logo {
+        width: 300px;
+    }
+
+    .header__text {
+        width:90%;
+        margin:0 auto;
+    }
+
+    .cta--bottom.cta--5 .cta__button {
+        border: 1px solid #0f0f0f;
+        border-right: none;
+        margin: 0;
+    }
+
+    .cta--bottom.cta--5 .cta__button--button-1 {
+        border-left: none;
+    }
+
+    .fullscreen .cta--side .cta__label {
+        font-size: 10px;
+    }
+
+    .cta__icon {
+        margin-bottom: 10px;
+    }
+
+    .cta--bottom .cta__button {
+        font-size: 15px;
+    }
+}
+
+/** Smaller mobile devices **/
+@media screen and (max-width: 500px), screen and (max-height: 300px) and (orientation: landscape) {
+    .cta__icon {
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 375px) and (orientation: portrait) {
+    .timeline__button-icon--skip-forward {
+        margin-left: 0px;
+    }
+}
+
+/** Very small mobile devices **/
+@media screen and (max-height: 260px) and (orientation: landscape) {
+    .cta__icon {
+        margin-bottom: 2px;
+    }
+}
+
+/** General rules for devices which don't support the hover state **/
+@media (any-hover: none) {
+    .cta__button:hover,
+    .cta__button:active {
+        background-color: #0072b8;
+    }
+
+    .social--top .social__icon:hover,
+    .social--top .social__icon:active,
+    .social--top .focusable.social__icon:focus {
+        background-position-y: 0;
+        --social-bgY: 0;
+    }
+
+    .fullscreen .cta--side .cta__button:hover {
+        left: -130%;
+    }
+
+    .fullscreen .cta--side .cta__button:hover .cta__label {
+        opacity: 0;
+    }
+
+    .timeline__settings-heading--clickable:hover .timeline__button-icon,
+    .timeline__settings-heading--clickable:active .timeline__button-icon,
+    .timeline__settings-item:hover .timeline__button-icon,
+    .timeline__settings-item:active .timeline__button-icon,
+    .timeline__button:hover .timeline__button-icon,
+    .timeline__button:active .timeline__button-icon {
+        background-position-y: 50%;
+        --timeline-bgY: 50%;
+    }
+
+    .timeline__settings-item:hover .timeline__settings-text,
+    .timeline__settings-item:active .timeline__settings-text {
+        color: #818888;
+    }
+
+    .promo__link:hover,
+    .promo__link:active {
+        text-decoration: none;
+    }
+
+    .footer__link:hover,
+    .footer__link:active {
+        text-decoration: none;
+    }
+}
