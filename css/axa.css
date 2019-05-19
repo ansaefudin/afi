@@ -14,7 +14,7 @@
 
 .content {
 	background: url("../images/background/1366x768.png");
-	background-position: center bottom;
+	background-position: center center;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
