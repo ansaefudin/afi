@@ -35,17 +35,12 @@
 
 /** Main Styling (for 1080p) **/
 .body {
-    background: url("../images/back2.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: #f0f0f0;
+    font-family: "OpenSans_Regular", Arial;
 }
 
 .top-wrapper {
-    background-position: right;
-    background-size: 1500px;
-    float: right 80px;
+    background: #717171 url("../images/background_tile.png");
 }
 
 .fullscreen .top-wrapper {
@@ -178,15 +173,15 @@
 
 .cta--side,
 .promo--side {
-    background-color: #005B96;
+    background-color: #003366;
 }
 
 .cta__button {
     color: #fff;
-    background-color: #005B96;
+    background-color: #003366;
     border: 0;
     font-family: Arial;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 0;
@@ -244,17 +239,19 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background: url("../images/cta_icons.png") no-repeat;
     background-position: var(--cta-bgX) var(--cta-bgY);
     background-size: 500% 300%;
 }
 
 .fullscreen .cta__icon {
-    margin-bottom: ;
-    margin-right: calc(((50/230) * 100%) - 25px);
+    margin-bottom: 0;
+    margin-right: calc(((50/230) * 100%) - 30px);
     float: right;
+    width: 60px;
+    height: 60px;
 }
 
 .cta__icon--contact {
@@ -317,28 +314,34 @@
 
 .timeline {
     color: #fff;
-    background-color: #005B96;
-    font-size: 10px;
+    background-color: #1f1f1f;
+    font-size: 20px;
 }
 
 .timeline__cover {
-    background: #005B96;
+    background: #003366;
 }
 
 .timeline__controls {
-    background-color: #005B96;
+    background-color: #003366;
     border-color: #dbdbdb;
 }
 
+.fullscreen .timeline__controls {
+    background-color: #003366;
+    border-color: #dbdbdb;
+    font-size: 14px;
+}
+
 .timeline__button {
-    background-color: #005B96;
+    background-color: #003366;
     cursor: pointer;
 }
 
 .timeline__button--skip-back,
 .timeline__button--skip-forward,
 .timeline__button--play-pause {
-    width: 18.1px;
+    width: 31px;
 }
 
 .fullscreen .timeline__button--skip-back,
@@ -349,11 +352,21 @@
 
 .timeline__button--settings,
 .timeline__button--fullscreen {
+    width: 11px;
+    text-align: center;
+}
+
+.fullscreen .timeline__button--settings,
+.fullscreen .timeline__button--fullscreen {
     width: 25px;
     text-align: center;
 }
 
 .timeline__button--volume {
+    width: 15px;
+}
+
+.fullscreen .timeline__button--volume {
     width: 25px;
 }
 
@@ -363,8 +376,8 @@
 
     display: block;
     margin: 0 auto;
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
     background: url("../images/timeline_controls.png") no-repeat;
     background-position-y: 50%;
     background-position: var(--timeline-bgX) var(--timeline-bgY);
@@ -372,8 +385,8 @@
 }
 
 .fullscreen .timeline__button-icon {
-    width: 13px;
-    height: 13px;
+    width: 20px;
+    height: 20px;
 }
 
 .timeline__button:hover .timeline__button-icon,
@@ -390,23 +403,23 @@
 }
 
 .timeline__button-icon--play {
-    width: 13px;
-    height: 13px;
+    width: 9px;
+    height: 9px;
     background-position-x: calc((100%/26) * 0);
     --timeline-bgX: calc((100%/26) * 0);
 }
 
 .timeline__button-icon--pause {
-    width: 13px;
-    height: 13px;
+    width: 35px;
+    height: 35px;
     background-position-x: calc((100%/26) * 1);
     --timeline-bgX: calc((100%/26) * 1);
 }
 
 .fullscreen .timeline__button-icon--play,
 .fullscreen .timeline__button-icon--pause {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 
 .timeline__button-icon--skip-forward {
@@ -715,3 +728,83 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 375px) and (orientation: portrait) {
+    .cta--side.cta--5 .cta__button {
+        margin-right:0;
+        border: none;
+    }
+
+    .fullscreen .cta--side .cta__label {
+        font-size: 12px;
+    }
+
+    .timeline__button--skip-back,
+    .timeline__button--skip-forward {
+        width: 30%;
+    }
+
+    .timeline__button--play-pause {
+        width: 32%;
+    }
+
+    .timeline__button--settings {
+        width: 100%;
+    }
+
+    .timeline__button-icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .timeline__button-icon--skip-back,
+    .timeline__button-icon--skip-forward {
+        width: 13px;
+        height: 13px;
+    }
+
+    .timeline__button-icon--skip-back {
+        margin-right: 4px;
+    }
+
+    .timeline__button-icon--skip-forward {
+        margin-left: 4px;
+    }
+
+    .timeline-progress-indicator-ball {
+        background-color: #fff;
+        border: 3px solid #0072b8;
+        border-radius: 12px;
+    }
+
+    .timeline__controls--center {
+        z-index: 5;
+        background-color: #1f1f1f;
+    }
+
+    .timeline__button--settings,
+    .timeline__button--fullscreen {
+        width: 10px;
+        text-align: center;
+    }
+
+    .timeline__settings-popout,
+    .timeline__settings-quality,
+    .timeline__settings-language,
+    .timeline__settings-cc,
+    .timeline--no-volume .timeline__settings-popout,
+    .timeline--no-volume .timeline__settings-quality,
+    .timeline--no-volume .timeline__settings-language,
+    .timeline--no-volume .timeline__settings-cc,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-popout,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-quality,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-language,
+    .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
+        right: 0;
+    }
+
+    .footer__poweredby,
+    .footer__copyright,
+    .footer__links {
+        text-align: center;
+    }
+}
