@@ -128,7 +128,7 @@ sub {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 420px;
+    width: 520px;
 }
 
 .main::after {
