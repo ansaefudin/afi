@@ -65,11 +65,6 @@ var Translations = {
             "card": "d1b4d742",
             "label": "Survey",
             "icon": "save"
-        },
-        "button5": {
-            "url": "http://example.com/",
-            "label": "Share",
-            "icon": "share"
         }
     },
 
