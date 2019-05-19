@@ -238,7 +238,7 @@
 
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     width: 20px;
     height: 20px;
     background: url("../images/cta_icons.png") no-repeat;
@@ -410,8 +410,8 @@
 }
 
 .timeline__button-icon--pause {
-    width: 35px;
-    height: 35px;
+    width: 9px;
+    height: 9px;
     background-position-x: calc((100%/26) * 1);
     --timeline-bgX: calc((100%/26) * 1);
 }
