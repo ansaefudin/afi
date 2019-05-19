@@ -8,8 +8,6 @@
 }
 
 .body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
   font-family: "OpenSans_Regular", Arial;
     -webkit-text-size-adjust: 100%;
 }
