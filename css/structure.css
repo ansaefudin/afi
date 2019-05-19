@@ -124,6 +124,13 @@ sub {
     display: none;
 }
 
+.main {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 540px;
+}
+
 .main::after {
     content: "";
     display: block;
