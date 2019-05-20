@@ -320,7 +320,7 @@ sub {
 
 .timeline__controls--center {
     position: relative;
-    width: 325px;
+    width: 320px;
 }
 
 .fullscreen .timeline__controls--center {
