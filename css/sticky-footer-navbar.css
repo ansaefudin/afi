@@ -6,7 +6,7 @@ html {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -16,7 +16,7 @@ html {
 
 @media screen and (max-width: 375px) and (orientation: portrait) {
   .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
