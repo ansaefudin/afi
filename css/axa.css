@@ -45,6 +45,14 @@
 	margin-left: -25px;
 }
 
+.main--center {
+	top: 0;
+	bottom: 56px;
+	height: auto;
+	width: 100%;
+
+}
+
 .text--main {
 	font-size: 1.05em;
 	font-family: arial;
@@ -101,6 +109,14 @@
 	font-size: 18px;
 	background : linear-gradient(-580deg, #FFFFFF 80%, #003366 20%);
 	border-color: #003366;
+}
+
+.text--email {
+	padding-left: 65px;
+}
+
+.text--contact {
+	padding-left: 9px;
 }
 
 

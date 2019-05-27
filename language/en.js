@@ -98,6 +98,7 @@ var Translations = {
         }
     },
 
+
     /**
      * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
      *
@@ -107,37 +108,71 @@ var Translations = {
      *
      * All videos have an END state, this should not be defined here as it is an implicit construct.
      */
+
     "ChapterSettings": [
         {
-            "label": "Introduction",
+            "label": "<p>Welcome<br/>Speech</p>",
             "states": [
                 {
                     "cardId": "START",
-                    "width": 20
+                    "width": 15
                 }
             ]
         },
         {
-            "label": "Your Account",
+            "label": "<p>Thank You<br/>Speech</p>",
             "states": [
                 {
                     "cardId": "77a834f0",
-                    "width": 20
-                },
+                    "width": 15
+                }
+            ]
+        },
+        {
+            "label": "<p>Verification<br/>Customer Data</p>",
+            "states": [
                 {
-                    "cardId": "c23a68c9",
+                    "cardId": "7b0123a5",
                     "width": 20
                 }
             ]
         },
         {
-            "label": "Thank You",
+            "label": "<p>Product<br/>Info</p>",
             "states": [
                 {
                     "cardId": "7b0123a5",
-                    "width": 40
+                    "width": 11
+                }
+            ]
+        },
+        {
+            "label": "<p>Product<br/>Detail</p>",
+            "states": [
+                {
+                    "cardId": "7b0123a5",
+                    "width": 11
+                }
+            ]
+        },
+        {
+            "label": "<p>Legal<br/>Statment</p>",
+            "states": [
+                {
+                    "cardId": "7b0123a5",
+                    "width": 13
+                }
+            ]
+        },
+        {
+            "label": "<p>Close<br>Speech",
+            "states": [
+                {
+                    "cardId": "7b0123a5",
+                    "width": 11
                 }
             ]
         }
+
     ]
 }
