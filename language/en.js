@@ -62,15 +62,9 @@ var Translations = {
             "icon": "email"
         },
         "button4": {
-<<<<<<< HEAD
             "url": "http://example.com/",
             "label": "Share",
             "icon": "share"
-=======
-            "card": "d1b4d742",
-            "label": "Survey",
-            "icon": "save"
->>>>>>> 19a2130fff09f5dcaa8585ba95ff6beb940eea05
         }
     },
 
@@ -104,10 +98,6 @@ var Translations = {
         }
     },
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 19a2130fff09f5dcaa8585ba95ff6beb940eea05
     /**
      * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
      *
