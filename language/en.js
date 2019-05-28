@@ -62,9 +62,15 @@ var Translations = {
             "icon": "email"
         },
         "button4": {
+<<<<<<< HEAD
+            "url": "http://example.com/",
+            "label": "Share",
+            "icon": "share"
+=======
             "card": "d1b4d742",
             "label": "Survey",
             "icon": "save"
+>>>>>>> 19a2130fff09f5dcaa8585ba95ff6beb940eea05
         }
     },
 
@@ -98,7 +104,10 @@ var Translations = {
         }
     },
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 19a2130fff09f5dcaa8585ba95ff6beb940eea05
     /**
      * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
      *
@@ -108,7 +117,6 @@ var Translations = {
      *
      * All videos have an END state, this should not be defined here as it is an implicit construct.
      */
-
     "ChapterSettings": [
         {
             "label": "<p>Welcome<br/>Speech</p>",
@@ -129,10 +137,11 @@ var Translations = {
             ]
         },
         {
+
             "label": "<p>Verification<br/>Customer Data</p>",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "a7e0f675",
                     "width": 20
                 }
             ]
@@ -141,7 +150,7 @@ var Translations = {
             "label": "<p>Product<br/>Info</p>",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "50c10b64",
                     "width": 11
                 }
             ]
@@ -150,7 +159,7 @@ var Translations = {
             "label": "<p>Product<br/>Detail</p>",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "5be243e3",
                     "width": 11
                 }
             ]
@@ -168,11 +177,10 @@ var Translations = {
             "label": "<p>Close<br>Speech",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "b9d88f61",
                     "width": 11
                 }
             ]
         }
-
     ]
 }
