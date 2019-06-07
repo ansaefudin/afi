@@ -100,7 +100,7 @@
 	}
 
 	.log--head {
-		width: 120px;
+		width: 100px;
     	height: auto;
     	margin: -10px 0 0;
     	background-position: center;
@@ -109,11 +109,11 @@
 	}
 
 	.navbar--white {
-		height: 100px;
+		height: 90px;
 	}
 
 	.m--main {
-		margin-top: 110px;
+		margin-top: 100px;
 	}
 
 	.t--main {
@@ -121,11 +121,11 @@
 	}
 
 	.f--text {
-		margin-left: 25px;
+		margin-left: 5px;
 	}
 
 	.d--main {
-		margin-top: 10px; 
+		margin-top: 5px; 
 	}
 
 	.m--well {
@@ -142,7 +142,7 @@
     	-webkit-text-size-adjust: 100%;
     	text-shadow: 0.5px 0.5px #FFFFFF;
     	text-transform: calc(100% - 90px);
-    	font-size: 1.29em;
+    	font-size: 1.2em;
     	text-align: justify;
 	}
 

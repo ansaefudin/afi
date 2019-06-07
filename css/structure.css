@@ -35,7 +35,7 @@ sub {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 620px;
+    width: 550px;
 }
 
 .main::after {
@@ -156,7 +156,7 @@ sub {
 }
 
 .player__wrapper {
-    width: 550px;
+    width: 480px;
     height: 275px;
 }
 
@@ -196,7 +196,7 @@ sub {
 
 .timeline,
 .timeline__controls {
-    height: 40px;
+    height: 30px;
 }
 
 .fullscreen .timeline {
@@ -215,7 +215,7 @@ sub {
 }
 
 .timeline__controls--left {
-    width: 100px;
+    width: 85px;
     padding: 0 1px;
     border-right: 1px solid;
 }
@@ -227,7 +227,7 @@ sub {
 
 .timeline__controls--center {
     position: relative;
-    width: 400px;
+    width: 350px;
 }
 
 .fullscreen .timeline__controls--center {
@@ -340,9 +340,9 @@ sub {
     position: relative;
     z-index: 30;
     height: 100%;
-    line-height: 20px;
+    line-height: 15px;
     text-align: center;
-    font-size: 11px;
+    font-size:9px;
     font-weight: bold;
 }
 
@@ -420,7 +420,7 @@ sub {
 }
 
 .timeline-volume__bg {
-    margin-top: 19px;
+    margin-top: 12px;
     width: 100%;
     height: 5px;
 }
