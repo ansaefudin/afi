@@ -35,7 +35,7 @@ sub {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 550px;
+    width: 620px;
 }
 
 .main::after {
@@ -59,7 +59,7 @@ sub {
 .cta--side {
     float: left;
     width: 70px;
-    height: 275px;
+    height: 320px;
     padding-right: 1px;
 }
 
@@ -126,7 +126,7 @@ sub {
 .cta--side.cta--4 .cta__button.cta__button--button-4,
 .promo--side.promo--4 .promo__item.promo__item--4 {
     margin-bottom: 0;
-    height: 25%;
+    height: calc(25% - 1px);
 }
 
 .cta--side.cta--5 .cta__button,
@@ -156,8 +156,8 @@ sub {
 }
 
 .player__wrapper {
-    width: 480px;
-    height: 275px;
+    width: 550px;
+    height: 320px;
 }
 
 .fullscreen .player__wrapper {
