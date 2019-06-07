@@ -53,18 +53,18 @@ var Translations = {
         },
         "button2": {
             "card": "d1b4d742",
-            "label": "Website",
-            "icon": "website"
-        },
-        "button3": {
-            "card": "d1b4d742",
             "label": "Email",
             "icon": "email"
         },
+        "button3": {
+            "card": "d1b4d742",
+            "label": "Website",
+            "icon": "website"
+        },
         "button4": {
-            "url": "http://example.com/",
-            "label": "Share",
-            "icon": "share"
+            "card": "d1b4d742",
+            "label": "Survey",
+            "icon": "save"
         }
     },
 
@@ -98,6 +98,7 @@ var Translations = {
         }
     },
 
+
     /**
      * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
      *
@@ -107,6 +108,7 @@ var Translations = {
      *
      * All videos have an END state, this should not be defined here as it is an implicit construct.
      */
+
     "ChapterSettings": [
         {
             "label": "<p>Welcome<br/>Speech</p>",
@@ -127,12 +129,11 @@ var Translations = {
             ]
         },
         {
-
             "label": "<p>Verification<br/>Customer Data</p>",
             "states": [
                 {
-                    "cardId": "a7e0f675",
-                    "width": 20
+                    "cardId": "7b0123a5",
+                    "width": 22
                 }
             ]
         },
@@ -140,8 +141,8 @@ var Translations = {
             "label": "<p>Product<br/>Info</p>",
             "states": [
                 {
-                    "cardId": "50c10b64",
-                    "width": 11
+                    "cardId": "7b0123a5",
+                    "width": 12
                 }
             ]
         },
@@ -149,8 +150,8 @@ var Translations = {
             "label": "<p>Product<br/>Detail</p>",
             "states": [
                 {
-                    "cardId": "5be243e3",
-                    "width": 11
+                    "cardId": "7b0123a5",
+                    "width": 12
                 }
             ]
         },
@@ -167,10 +168,11 @@ var Translations = {
             "label": "<p>Close<br>Speech",
             "states": [
                 {
-                    "cardId": "b9d88f61",
+                    "cardId": "7b0123a5",
                     "width": 11
                 }
             ]
         }
+
     ]
 }

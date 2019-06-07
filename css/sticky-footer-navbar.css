@@ -6,12 +6,209 @@ html {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 75px;
-  background-color: #003366;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 200px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -25px;
+    width: 120em;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.1em;
+  }
+
+@media screen and (max-width: 2460px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -25px;
+    width: 90em;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 1640px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 55px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -25px;
+    width: 650px;
+    height: auto;
+  }
+
+  .footer--text {
+    margin-top: -25px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -15px;
+    width: 950px;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -15px;
+    width: 50px;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -15px;
+    width: 600px;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 820px) and (orientation: landscape) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -15px;
+    width: 950px;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -15px;
+    width: 950px;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 500px), screen and (max-height: 300px) and (orientation: landscape) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 75px;
+    background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -8px;
+    width: 350px;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+  }
 }
 
 @media screen and (max-width: 375px) and (orientation: portrait) {
@@ -20,8 +217,20 @@ html {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 45px;
+    height: 50px;
     background-color: #003366;
+  }
+
+  .footer--img {
+    margin-top: -15px;
+    width: 250px;
+    height: auto;
+  }
+
+  .footer--text {
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8em;
   }
 }
 
@@ -38,7 +247,7 @@ body > .container {
 }
 
 .footer > .container {
-  padding-right: 15px;
+  padding-right: 5px;
   padding-left: 15px;
 }
 
