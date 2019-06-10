@@ -126,7 +126,7 @@ sub {
 .cta--side.cta--4 .cta__button.cta__button--button-4,
 .promo--side.promo--4 .promo__item.promo__item--4 {
     margin-bottom: 0;
-    height: 25%;
+    height: 24.5%;
 }
 
 .cta--side.cta--5 .cta__button,
@@ -183,7 +183,7 @@ sub {
     z-index: 4000;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
     opacity: 0.3;
     cursor: not-allowed;
@@ -215,9 +215,9 @@ sub {
 }
 
 .timeline__controls--left {
-    width: 100px;
+    width: 80px;
     padding: 0 1px;
-    border-right: 5px solid;
+    border-right: 1px solid;
 }
 
 .fullscreen .timeline__controls--left {
@@ -227,7 +227,7 @@ sub {
 
 .timeline__controls--center {
     position: relative;
-    width: 325px;
+    width: 350px;
 }
 
 .fullscreen .timeline__controls--center {
@@ -248,9 +248,9 @@ sub {
 }
 
 .timeline__controls--right {
-    width: 125px;
+    width: 115px;
     padding: 0 1px;
-    border-left: 5px solid;
+    border-left: 2px solid;
 }
 
 .fullscreen .timeline__controls--right {
