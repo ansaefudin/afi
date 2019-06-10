@@ -35,7 +35,7 @@ sub {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 620px;
+    width: 575px;
 }
 
 .main::after {
@@ -59,7 +59,7 @@ sub {
 .cta--side {
     float: left;
     width: 70px;
-    height: 320px;
+    height: 270px;
     padding-right: 1px;
 }
 
@@ -126,7 +126,7 @@ sub {
 .cta--side.cta--4 .cta__button.cta__button--button-4,
 .promo--side.promo--4 .promo__item.promo__item--4 {
     margin-bottom: 0;
-    height: calc(25% - 1px);
+    height: 24.5%;
 }
 
 .cta--side.cta--5 .cta__button,
@@ -156,8 +156,8 @@ sub {
 }
 
 .player__wrapper {
-    width: 550px;
-    height: 320px;
+    width: 505px;
+    height: 270px;
 }
 
 .fullscreen .player__wrapper {
@@ -196,7 +196,7 @@ sub {
 
 .timeline,
 .timeline__controls {
-    height: 30px;
+    height: 35px;
 }
 
 .fullscreen .timeline {
@@ -215,7 +215,7 @@ sub {
 }
 
 .timeline__controls--left {
-    width: 85px;
+    width: 90px;
     padding: 0 1px;
     border-right: 1px solid;
 }
@@ -227,7 +227,7 @@ sub {
 
 .timeline__controls--center {
     position: relative;
-    width: 350px;
+    width: 370px;
 }
 
 .fullscreen .timeline__controls--center {
@@ -340,9 +340,9 @@ sub {
     position: relative;
     z-index: 30;
     height: 100%;
-    line-height: 15px;
+    line-height: 9px;
     text-align: center;
-    font-size:9px;
+    font-size: 10px;
     font-weight: bold;
 }
 
@@ -420,7 +420,7 @@ sub {
 }
 
 .timeline-volume__bg {
-    margin-top: 12px;
+    margin-top: 19px;
     width: 100%;
     height: 5px;
 }
@@ -502,42 +502,6 @@ sub {
 .chapter-button {
     display: inline-block;
 }
-
-.footer {
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    width: 2460px;
-}
-
-.footer__pblogo {
-    margin-right: 0;
-    width: 140px;
-    height: 35px;
-    vertical-align: middle;
-}
-
-.footer__poweredby-break {
-    display: none;
-}
-
-.footer__copyright {
-    float: left;
-    width: 33%;
-}
-
-.footer__links {
-    float: right;
-    width: 33%;
-}
-
-.footer__copyright,
-.footer__links {
-    position: relative;
-    top: -28px;
-}
-
 
 .top-wrapper--no-cta.top-wrapper--no-promo .header,
 .top-wrapper--no-cta.top-wrapper--no-promo .main,

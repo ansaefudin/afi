@@ -1,0 +1,276 @@
+/*/* TV HD */
+.content {
+	background-color: black;
+}
+
+/*FHD*/
+@media screen and (max-width: 2460px) {
+	.content {
+		background: url("../images/background/afi-720p.png");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+	}
+
+
+}
+/* HD, Leptop HiDPI, MDPI, Touch */
+@media screen and (max-width: 1640px) {
+	.content {
+		background: url("../images/background/afi-720p.png");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+		margin: 0;
+	}
+
+	.navbar {
+		overflow: hidden;
+		background-color: #FFFFFF;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+	  float: left;
+	  display: block;
+	  color: #FFFFFF;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.navbar a:hover {
+	  background: #FFFFFF;
+	  color: black;
+	}
+
+	.logo {
+		width: 14.5%;
+    	height: auto;
+    	margin: -5px 0 0;
+    	background-position: center;
+    	background-size: contain;
+    	float:left;
+	}
+
+	.grid {
+	   display: grid;
+	   grid-template-columns: auto auto auto auto;
+	   grid-gap: 10px;
+	   padding: 0;
+	}
+
+	.item {
+		grid-column: 1 / 2;
+	}
+
+	.mains {
+		padding: 16px;
+		margin-top: 30px;
+		height: 600px;
+		position: fixed;
+	}
+
+	.frm {
+		width: 570px;
+		background-color: grey;
+		margin-left: -14px;
+	}
+
+	.mains--p {
+		font-family: 'Source Sans Pro', sans-serif;
+    	-webkit-text-size-adjust: 100%;
+    	font-size: 15.5px;
+    	text-align: justify;
+	}
+
+	.mians--pad {
+		margin-top: 70px;
+		margin-bottom: -10px;
+	}
+
+	.mians--pad2 {
+		margin-top: 5px;
+	}
+
+	.mians--pad3 {
+		margin-top: -20px;
+		margin-bottom: -10px;
+	}
+	.mians--pad4 {
+		margin-top: 5px;
+		margin-bottom: -10px;
+	}
+	.mians--pad5 {
+		margin-top: 5px;
+		margin-bottom: -10px;
+	}
+
+	.mians--pad5 b {
+		color: blue;
+	}
+
+	.pad {
+		margin-left: 109px;
+	}
+
+	.mians--pad6 {
+		margin-top: 5px;
+		margin-bottom: -10px;
+	}
+
+	.mians--pad-text {
+		width: 550px;
+		margin-left: -3px;
+	}
+
+	.mains-buttons {
+		margin-top: -15px;
+		padding: 0 80px;
+		width: 50em;
+	}
+
+	.mains-buttons-offset {
+		margin-right: 50px;
+		margin-left: 45px;
+	}
+
+	.btn {
+		margin-top: 50px;
+		background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
+		border-radius: 5px;
+		border: 1px solid #003366;
+		display: inline-block;
+		cursor: pointer;
+		color: #003366;
+		padding: 5px 5px;
+		width: 220px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		text-decoration: none;
+		text-shadow: 0px -1px 0px #FFFFFF;
+	}
+
+	.btn:hover {
+		background: linear-gradient(-600deg, #FFFFFF 20%, #003366 80%);
+	}
+
+	.btn:active {
+		position: relative;
+		top: 1px;
+	}
+
+	.round {
+	    display: inline-block;
+	    height: 10px;
+	    width: 10px;
+	    line-height: 10px;
+	    -moz-border-radius: 15px;
+	    border-radius: 15px;
+	    background-color: #222;    
+	    color: #FFFFFF;
+	    text-align: center;  
+	}
+	.round.round-lg {
+	    height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	    -moz-border-radius: 20px;
+	    border-radius: 20px;
+	    font-size: 20px;
+	}
+
+	.round-blue {
+	    background-color: #003366;
+	}
+
+	.footer {
+	   position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   background-color: #003366;
+	   color: white;
+	   text-align: center;
+	   height: 75px;
+	}
+
+	.f--pad {
+		padding: 1px 35px;
+		font-size: 18px;
+	}
+
+	.f--pad-b {
+		padding: 1px 25px;
+	}
+
+	.footer p {
+		font-family: 'Source Sans Pro', sans-serif;
+    	-webkit-text-size-adjust: 100%;
+    	text-transform: calc(100% - 90px);
+    	font-size: 15px;
+    	margin-top: -55;
+	}
+
+	.font {
+		font-family: 'Source Sans Pro', sans-serif;
+
+	}
+
+	.footer img {
+		margin-top: -35px;
+	}
+
+}
+
+@media screen and (max-width: 1230px) {
+	.content {
+		background-color: grey;
+	}
+}
+
+/* Moblie */
+
+/* option Mobile responsive 4,5,6,S5 */
+@media screen and (max-width: 820px) {
+	.content {
+		background: linear-gradient(580deg, red 10%, yellow 90%);
+	}
+}
+
+@media screen and (max-width: 820px) and (orientation: landscape) {
+	.content {
+		background: linear-gradient(580deg, green 10%, yellow 90%);
+	}
+}
+
+/*iphone 4 */
+@media screen and (max-width: 700px) {
+	.content {
+		background: linear-gradient(-580deg, white 20%, red 80%);
+	}
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+	.content {
+		background: linear-gradient(-580deg, white 20%, red 80%);
+	}
+}
+
+@media screen and (max-width: 500px), screen and (max-height: 300px) and (orientation: landscape) {
+	.content {
+		background: linear-gradient(-580deg, white 20%, black 80%);
+	}
+}
+
+@media screen and (max-width: 375px) and (orientation: portrait) {
+	.content {
+		background: linear-gradient(-580deg, white 20%, blue 80%);
+	}
+}
+
+*/

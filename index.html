@@ -36,12 +36,9 @@
 
     <!-- Set this to the twitter username for the landing page (if it exists) eg. "@eov_landing_page" -->
     <!-- <meta name="twitter:site" content="@username">-->
-
-    <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/structure.css" rel="stylesheet">
     <link href="./css/presentation.css" rel="stylesheet">
-    <link href="./css/axa.css" rel="stylesheet">
-    <link href="./css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="./css/m-tec.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- IE 7/8 CSS overrides -->
@@ -85,105 +82,76 @@
 </head>
 
 <body class="body content">
-    <div class="container-fluid">
-        <!-- Header -->
-        <nav class="navbar navbar--white navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/axa.png" class="log--head">
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <!-- End Header -->
+    <!-- Header -->
+    <div class="navbar">
+      <a href=""><img src="images/axa.png" class="logo"></a>
+    </div>
 
-        <!-- Main -->
-    <div class="container-fluid m--main">
-      <div class="row">
-          <div class="col-lg-6 ">
-              <div class="row">
-                  <div class="col-md-10">
-                      <p class="m-up f--text">Terima Kasih atas kepercayaan Anda kepada AXA Financial Indonesia sebagai mitra perlindungan jiwa Anda dan keluarga </p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-10">
-                      <p class="m-up f--text">Untuk kemudahan Anda memahami manfaat perlindungan dari produk asuransi yang anda miliki, saksikan video manfaat produk berikut.*</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-6">
-              
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-6 t--main">
-              <div class="m--well">
-                  <div id="jsTopWrapper" class="top-wrapper--no-cta top-wrapper--no-promo" >
-                    <div id="jsMain" class="main">
-                        <!-- Cta Left -->
-                            <div class="cta cta--side jsCtaContainer"></div>
-                          <!-- end CTA -->
-                          <!-- Player -->
-                            <div class="player">
-                              <div class="player__wrapper">
+    <!-- Main -->
+    <div class="mains mains--p">
+        <div class="mians--pad">
+            <p class="mians--pad-text">Terima Kasih atas kepercayaan Anda kepada AXA Financial Indonesia sebagai mitra perlindungan jiwa Anda dan keluarga</p>
+        </div>
+        <div class="mians--pad2">
+            <p class="mians--pad-text">Untuk kemudahan Anda memahami manfaat perlindungan dari produk asuransi yang anda miliki, saksikan video manfaat produk berikut.*</p>
+        </div>
+        <div class="frm">
+            <div id="jsTopWrapper" class="top-wrapper--no-cta top-wrapper--no-promo">
+                <div id="jsMain" class="main">
+                    <div class="cta cta--side jsCtaContainer"></div>
+                        <div class="player">
+                            <div class="player__wrapper">
                                 <div class="player__iframe" id="jsPlayerIframe">
-                                  {{VIDEO_IFRAME}}
+                                    {{VIDEO_IFRAME}}
                                 </div>
-                              </div>
                             </div>
-                          <!-- end Player -->
-                          <br class="clearfix">
-                          <!-- Left Timeline -->
-                          <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
-                                    <!-- <div id="jsTimelineCover" class="timeline__cover"></div> -->
+                        </div>
+                        <br class="clearfix">
+                        <!-- Left Timeline -->
+                        <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
+                        <!-- <div id="jsTimelineCover" class="timeline__cover"></div> -->
 
-                                    <div class="timeline__controls timeline__controls--left">
-                                        <button id="jsSkipBackButton" type="button" class="jsTimelineButton timeline__button timeline__button--skip-back no-focus">
-                                            <span class="timeline__button-icon timeline__button-icon--skip-back"></span>
-                                            <span class="sr-only translate" data-translate="SkipBackButtonText">Skip back</span>
-                                        </button>
-                                        <button id="jsPlayPauseButton" type="button" class="jsTimelineButton timeline__button timeline__button--play-pause no-focus">
-                                            <span class="timeline__button-icon timeline__button-icon--play"></span>
-                                            <span id="jsPlayPauseSRText" class="sr-only translate" data-translate="PlayPauseButtonText">Play/Pause</span>
-                                        </button>
-                                        <button id="jsSkipForwardButton" type="button" class="jsTimelineButton timeline__button timeline__button--skip-forward no-focus">
-                                            <span class="timeline__button-icon timeline__button-icon--skip-forward"></span>
-                                            <span class="sr-only translate" data-translate="SkipForwardButtonText">Skip forward</span>
-                                        </button>
-                                    </div>
+                                <div class="timeline__controls timeline__controls--left">
+                                    <button id="jsSkipBackButton" type="button" class="jsTimelineButton timeline__button timeline__button--skip-back no-focus">
+                                        <span class="timeline__button-icon timeline__button-icon--skip-back"></span>
+                                        <span class="sr-only translate" data-translate="SkipBackButtonText">Skip back</span>
+                                    </button>
+                                    <button id="jsPlayPauseButton" type="button" class="jsTimelineButton timeline__button timeline__button--play-pause no-focus">
+                                        <span class="timeline__button-icon timeline__button-icon--play"></span>
+                                        <span id="jsPlayPauseSRText" class="sr-only translate" data-translate="PlayPauseButtonText">Play/Pause</span>
+                                    </button>
+                                    <button id="jsSkipForwardButton" type="button" class="jsTimelineButton timeline__button timeline__button--skip-forward no-focus">
+                                        <span class="timeline__button-icon timeline__button-icon--skip-forward"></span>
+                                        <span class="sr-only translate" data-translate="SkipForwardButtonText">Skip forward</span>
+                                    </button>
+                                </div>
 
-                                    <div class="timeline__controls timeline__controls--active-state">
-                                        <div id="jsTimelineMobileActiveState" class="timeline-active-state__label"></div>
-                                    </div>
+                                <div class="timeline__controls timeline__controls--active-state">
+                                    <div id="jsTimelineMobileActiveState" class="timeline-active-state__label"></div>
+                                </div>
 
-                                    <div id="jsTimelineControlsCenter" class="timeline__controls timeline__controls--center">
+                                <div id="jsTimelineControlsCenter" class="timeline__controls timeline__controls--center">
 
-                                        <div id="jsBufferTimeline" class="timeline-buffering"></div>
-
+                                    <div id="jsBufferTimeline" class="timeline-buffering"></div>
                                         <div id="jsTimelineProgressHover" class="timeline-progress-hover"></div>
+                                            <div id="jsTimelineIndicator" class="timeline-progress-indicator">
+                                                <div id="jsTimelineIndicatorBall" class="timeline-progress-indicator-ball"></div>
+                                            </div>
 
-                                        <div id="jsTimelineIndicator" class="timeline-progress-indicator">
-                                            <div id="jsTimelineIndicatorBall" class="timeline-progress-indicator-ball"></div>
+                                            <div id="jsTimelineProgress" class="timeline-progress"></div>
+                                            <div id="jsTimelineContainer" class="timeline-chapters"></div>
                                         </div>
+                                        <div id="jsTimelineControlsRight" class="timeline__controls timeline__controls--right">
+                                            <button id="jsSettingsButton" type="button" class="jsTimelineButton timeline__button timeline__button--settings no-focus">
+                                                <span id="jsSettingsButtonIcon" class="timeline__button-icon timeline__button-icon--settings"></span>
+                                                <span class="sr-only translate" data-translate="SettingsButtonText">Settings</span>
+                                            </button>
 
-                                        <div id="jsTimelineProgress" class="timeline-progress"></div>
-
-                                        <div id="jsTimelineContainer" class="timeline-chapters"></div>
-                                    </div>
-
-                                    <div id="jsTimelineControlsRight" class="timeline__controls timeline__controls--right">
-                                        <button id="jsSettingsButton" type="button" class="jsTimelineButton timeline__button timeline__button--settings no-focus">
-                                            <span id="jsSettingsButtonIcon" class="timeline__button-icon timeline__button-icon--settings"></span>
-                                            <span class="sr-only translate" data-translate="SettingsButtonText">Settings</span>
-                                        </button>
-
-                                        <div id="jsSettingsContainer" class="timeline__settings">
-                                            <div id="jsSettingsButtonPopout" class="timeline__settings-popout jsSettingsPanel">
-                                                <div class="timeline__settings-heading">
-                                                    <span class="translate" data-translate="SettingsButtonText">Settings</span>
-                                                </div>
+                                            <div id="jsSettingsContainer" class="timeline__settings">
+                                                <div id="jsSettingsButtonPopout" class="timeline__settings-popout jsSettingsPanel">
+                                                    <div class="timeline__settings-heading">
+                                                        <span class="translate" data-translate="SettingsButtonText">Settings</span>
+                                                    </div>
 
                                                 <div id="jsQualityMenuItem" class="timeline__settings-item no-focus" data-setting="quality" tabindex="0">
                                                     <div class="timeline__settings-icon timeline__settings-icon--left">
@@ -229,9 +197,9 @@
                                                 <div id="jsLanguageMenuTitle" class="timeline__settings-heading timeline__settings-heading--clickable" tabindex="0">
                                                     <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--arrow">
                                                         <div class="timeline__button-icon timeline__button-icon--left-arrow"></div>
-                                                        <span class="sr-only translate" data-translate="BackFromText">Back from</span>
+                                                            <span class="sr-only translate" data-translate="BackFromText">Back from</span>
                                                     </div>
-                                                    <span class="translate" data-translate="LanguageMenuText">Language</span>
+                                                        <span class="translate" data-translate="LanguageMenuText">Language</span>
                                                 </div>
                                             </div>
 
@@ -239,20 +207,20 @@
                                                 <div id="jsCCMenuTitle" class="timeline__settings-heading timeline__settings-heading--clickable" tabindex="0">
                                                     <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--arrow">
                                                         <div class="timeline__button-icon timeline__button-icon--left-arrow"></div>
-                                                        <span class="sr-only translate" data-translate="BackFromText">Back from</span>
+                                                            <span class="sr-only translate" data-translate="BackFromText">Back from</span>
                                                     </div>
-                                                    <span class="translate" data-translate="CCMenuText">Captions</span>
+                                                        <span class="translate" data-translate="CCMenuText">Captions</span>
                                                 </div>
 
                                                 <div id="jsCCOffButton" class="timeline__settings-item jsTimelineSettingsCaption no-focus" data-value="off" tabindex="0">
                                                     <div class="timeline__settings-text translate" data-translate="OffText">Off</div>
                                                     <div class="timeline__settings-icon timeline__settings-icon--right">
-                                                        <div id="jsCCOffTick" class="timeline__button-icon timeline__button-icon--tick"></div>
-                                                    </div>
-                                                    <br class="clearfix"/>
+                                                    <div id="jsCCOffTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                                 </div>
-                                                <div id="jsCCOnButton" class="timeline__settings-item jsTimelineSettingsCaption no-focus" data-value="on" tabindex="0">
-                                                    <div class="timeline__settings-text translate" data-translate="OnText">On</div>
+                                                <br class="clearfix"/>
+                                            </div>
+                                            <div id="jsCCOnButton" class="timeline__settings-item jsTimelineSettingsCaption no-focus" data-value="on" tabindex="0">
+                                                <div class="timeline__settings-text translate" data-translate="OnText">On</div>
                                                     <div class="timeline__settings-icon timeline__settings-icon--right">
                                                         <div id="jsCCOnTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                                     </div>
@@ -264,16 +232,16 @@
                                                 <div id="jsQualityMenuTitle" class="timeline__settings-heading timeline__settings-heading--clickable" tabindex="0">
                                                     <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--arrow">
                                                         <div class="timeline__button-icon timeline__button-icon--left-arrow"></div>
-                                                        <span class="sr-only translate" data-translate="BackFromText">Back from</span>
+                                                            <span class="sr-only translate" data-translate="BackFromText">Back from</span>
                                                     </div>
                                                     <span class="translate" data-translate="QualityMenuText">Quality</span>
                                                 </div>
 
                                                 <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="auto" tabindex="0">
                                                     <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
-                                                        <div id="jsQualityMenuAutoIcon" class="timeline__button-icon timeline__button-icon--hd"></div>
-                                                    </div>
-                                                    <div class="timeline__settings-text translate" data-translate="QualityAutoText">Auto</div>
+                                                    <div id="jsQualityMenuAutoIcon" class="timeline__button-icon timeline__button-icon--hd"></div>
+                                                </div>
+                                                <div class="timeline__settings-text translate" data-translate="QualityAutoText">Auto</div>
                                                     <div class="timeline__settings-icon timeline__settings-icon--right">
                                                         <div id="jsQualityAutoTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                                     </div>
@@ -282,18 +250,18 @@
                                                 <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="1080p" tabindex="0">
                                                     <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
                                                         <div class="timeline__button-icon timeline__button-icon--hd"></div>
-                                                    </div>
-                                                    <div class="timeline__settings-text">1080p</div>
+                                                </div>
+                                                <div class="timeline__settings-text">1080p</div>
                                                     <div class="timeline__settings-icon timeline__settings-icon--right">
                                                         <div id="jsQuality1080pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
-                                                    </div>
-                                                    <br class="clearfix"/>
                                                 </div>
-                                                <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="720p" tabindex="0">
-                                                    <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
-                                                        <div class="timeline__button-icon timeline__button-icon--hd"></div>
-                                                    </div>
-                                                    <div class="timeline__settings-text">720p</div>
+                                                <br class="clearfix"/>
+                                            </div>
+                                            <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="720p" tabindex="0">
+                                                <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
+                                                    <div class="timeline__button-icon timeline__button-icon--hd"></div>
+                                                </div>
+                                                <div class="timeline__settings-text">720p</div>
                                                     <div class="timeline__settings-icon timeline__settings-icon--right">
                                                         <div id="jsQuality720pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
                                                     </div>
@@ -301,98 +269,83 @@
                                                 </div>
                                                 <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="540p" tabindex="0">
                                                     <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
+
                                                         <div class="timeline__button-icon timeline__button-icon--sd"></div>
                                                     </div>
                                                     <div class="timeline__settings-text">540p</div>
-                                                    <div class="timeline__settings-icon timeline__settings-icon--right">
-                                                        <div id="jsQuality540pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
+                                                        <div class="timeline__settings-icon timeline__settings-icon--right">
+                                                            <div id="jsQuality540pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
+                                                        </div>
+                                                        <br class="clearfix"/>
                                                     </div>
-                                                    <br class="clearfix"/>
-                                                </div>
-                                                <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="360p" tabindex="0">
-                                                    <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
-                                                        <div class="timeline__button-icon timeline__button-icon--sd"></div>
+                                                    <div class="timeline__settings-item jsTimelineSettingsQuality no-focus" data-quality="360p" tabindex="0">
+                                                        <div class="timeline__settings-icon timeline__settings-icon--left timeline__settings-icon--small">
+                                                           <div class="timeline__button-icon timeline__button-icon--sd"></div>
                                                     </div>
                                                     <div class="timeline__settings-text">360p</div>
-                                                    <div class="timeline__settings-icon timeline__settings-icon--right">
-                                                        <div id="jsQuality360pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
+                                                        <div class="timeline__settings-icon timeline__settings-icon--right">
+                                                            <div id="jsQuality360pTick" class="timeline__button-icon timeline__button-icon--tick"></div>
+                                                        </div>
+                                                        <br class="clearfix"/>
                                                     </div>
-                                                    <br class="clearfix"/>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        <button id="jsVolumeButton" type="button" class="jsTimelineButton timeline__button timeline__button--volume no-focus">
-                                            <span id="jsVolumeButtonIcon" class="timeline__button-icon timeline__button-icon--volume-2"></span>
-                                            <span class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
-                                        </button>
+                                            <button id="jsVolumeButton" type="button" class="jsTimelineButton timeline__button timeline__button--volume no-focus">
+                                                <span id="jsVolumeButtonIcon" class="timeline__button-icon timeline__button-icon--volume-2"></span>
+                                                <span class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
+                                            </button>
 
-                                        <div id="jsVolume" class="timeline-volume">
-                                            <div id="jsVolumeBar" class="timeline-volume__bg"></div>
-                                            <div id="jsVolumeLevelContainer" class="timeline-volume__container">
-                                                <div id="jsVolumeLevel" class="timeline-volume__level">
-                                                    <div id="jsVolumeBall" class="timeline-volume__ball"></div>
-                                                    <span id="jsVolumeButtonSRText" class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
+                                            <div id="jsVolume" class="timeline-volume">
+                                                <div id="jsVolumeBar" class="timeline-volume__bg"></div>
+                                                    <div id="jsVolumeLevelContainer" class="timeline-volume__container">
+                                                        <div id="jsVolumeLevel" class="timeline-volume__level">
+                                                            <div id="jsVolumeBall" class="timeline-volume__ball"></div>
+                                                                <span id="jsVolumeButtonSRText" class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <button id="jsFullScreenButton" type="button" class="jsTimelineButton timeline__button timeline__button--fullscreen no-focus">
+                                                        <span id="jsFullScreenIcon" class="timeline__button-icon timeline__button-icon--fullscreen"></span>
+                                                        <span class="sr-only translate" data-translate="FullScreenButtonText">Full Screen</span>
+                                                    </button>
                                                 </div>
                                             </div>
-                                        </div>
-
-                                        <button id="jsFullScreenButton" type="button" class="jsTimelineButton timeline__button timeline__button--fullscreen no-focus">
-                                            <span id="jsFullScreenIcon" class="timeline__button-icon timeline__button-icon--fullscreen"></span>
-                                            <span class="sr-only translate" data-translate="FullScreenButtonText">Full Screen</span>
-                                        </button>
-                                    </div>
-                                </div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-6">
-              
-          </div>
-      </div>
-      <div class="row d--main">
-          <div class="col-lg-6">
-              <div class="row">
-                  <div class="col-md-10">
-                      <p class="m-up f--text">Terkait pertanyaan seputar polis Anda, hubungi AXA</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-10">
-                      <p class="m-up f--text">Customer Call Center : 1500-940<br> E-mail<d class="text--email"> </d>:<b> customer@axa-financial.co.id</b></p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-10">
-                      <p class="m-up f--text">Seluruh manfaat ketentuan polis mengacu pada buku</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-6 pad" align="center">
-            <button class="btn btn-lg bt k">
-                <i class="round round-lg round-blue fa fa-phone"></i><a class="l">1500-940</a>
-            </button>
-            <button class="col-lg-offset-1 btn btn-lg bt k">
-                <i class="round round-lg round-blue fa fa-globe"></i><a href="#" class="r">www.axa.co.id</a>
-            </button>
-          </div>
-      </div>
-    </div>
-    <!--End Main-->
-    </div>
-    <footer class="footer">
-      <div class="container-fluid">
-        <p class="text-muted footer--text" align="center">Copyright 2019 AXA Indonesia</p>
-        <div class="col-lg-12" align="center">
-            <div class="log--foot">
-                <img src="images/footer.png" class="footer--img" >
+                </div>
             </div>
-            
         </div>
-      </div>
-    </footer>
+        <br class="clearfix">
+        <div class="grid">
+            <div class="item1">
+                <div class="mians--pad3">
+                    <p class="mians--pad-text">Terkait pertanyaan seputar polis Anda, hubungi AXA</p>
+                </div>
+                <div class="mians--pad4">
+                    <p class="mians--pad-text">Customer Call Center : 1500-940</p>
+                </div>
+                <div class="mians--pad5">
+                    <p class="mians--pad-text">E-mail<d class="pad"></d>:<b> nasabah@axa-financial.co.id</b></p>
+                </div>
+                <div class="mians--pad6">
+                    <p class="mians--pad-text">Seluruh manfaat dan ketentuan polis mengacu pada buku polis</b></p>
+                </div>
+            </div>
+            <div class="item2" align="Center">
+                <div class="mains-buttons">
+                    <a href="" class="btn mains-buttons-offset"><i class="round round-lg round-blue fa fa-phone"></i><y class="f--pad">1500-940</y></a>
+                    <a href="" class="btn"><i class="round round-lg round-blue fa fa-globe"></i><y class="f--pad-b">www.axa.co.id</y></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main -->
 
+    <!-- footer -->
+    <div class="footer">
+      <p class="font">Copyright 2019 AXA Indonesia</p>
+      <img src="images/footer.png">
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
