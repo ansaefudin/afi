@@ -340,9 +340,10 @@ sub {
     position: relative;
     z-index: 30;
     height: 100%;
-    line-height: 17px;
+    line-height: 9px;
     text-align: center;
     font-size: 8px;
+    font-weight: bold;
 }
 
 .fullscreen .timeline-chapters {
@@ -501,42 +502,6 @@ sub {
 .chapter-button {
     display: inline-block;
 }
-
-.footer {
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    width: 2460px;
-}
-
-.footer__pblogo {
-    margin-right: 10px;
-    width: 140px;
-    height: 35px;
-    vertical-align: middle;
-}
-
-.footer__poweredby-break {
-    display: none;
-}
-
-.footer__copyright {
-    float: left;
-    width: 33%;
-}
-
-.footer__links {
-    float: right;
-    width: 33%;
-}
-
-.footer__copyright,
-.footer__links {
-    position: relative;
-    top: -28px;
-}
-
 
 .top-wrapper--no-cta.top-wrapper--no-promo .header,
 .top-wrapper--no-cta.top-wrapper--no-promo .main,

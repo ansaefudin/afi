@@ -693,40 +693,6 @@
     margin: 5px 0 5px 0;
 }
 
-.footer {
-    color: #3d3d3d;
-    background-color: #f0f0f0;
-    font-size: 14px;
-}
-
-.footer__poweredby {
-    text-align: center;
-}
-
-.footer__copyright {
-    text-align: left;
-}
-
-.footer__links {
-    text-align: right;
-}
-
-.footer__link {
-    color: #717171;
-    text-decoration: none;
-}
-
-.footer__link:hover,
-.footer__link:active,
-.focusable.footer__link:focus {
-    text-decoration: underline;
-}
-
-.footer__link--image:hover,
-.footer__link--image:active,
-.focusable.footer__link--image:focus {
-    text-decoration: none;
-}
 
 @media screen and (max-width: 375px) and (orientation: portrait) {
     
