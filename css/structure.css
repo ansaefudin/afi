@@ -184,7 +184,7 @@ sub {
     z-index: 4000;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 80%;
     height: 100%;
     opacity: 0.3;
     cursor: not-allowed;
