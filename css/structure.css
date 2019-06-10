@@ -215,7 +215,7 @@ sub {
 }
 
 .timeline__controls--left {
-    width: 90px;
+    width: 80px;
     padding: 0 1px;
     border-right: 1px solid;
 }
