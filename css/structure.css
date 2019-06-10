@@ -35,7 +35,7 @@ sub {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 575px;
+    width: 570px;
 }
 
 .main::after {
