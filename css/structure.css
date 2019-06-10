@@ -29,14 +29,13 @@ sub {
 .body {
     font-family: Arial;
     -webkit-text-size-adjust: 100%;
-    width: 505px;
 }
 
 .main {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 575px;
+    width: 550px;
 }
 
 .main::after {
@@ -127,7 +126,7 @@ sub {
 .cta--side.cta--4 .cta__button.cta__button--button-4,
 .promo--side.promo--4 .promo__item.promo__item--4 {
     margin-bottom: 0;
-    height: 24.5%;
+    height: 25%;
 }
 
 .cta--side.cta--5 .cta__button,
@@ -157,7 +156,7 @@ sub {
 }
 
 .player__wrapper {
-    width: 505px;
+    width: 480px;
     height: 270px;
 }
 
@@ -184,7 +183,7 @@ sub {
     z-index: 4000;
     top: 0;
     left: 0;
-    width: 80%;
+    width: 100%;
     height: 100%;
     opacity: 0.3;
     cursor: not-allowed;
@@ -216,9 +215,9 @@ sub {
 }
 
 .timeline__controls--left {
-    width: 80px;
+    width: 100px;
     padding: 0 1px;
-    border-right: 1px solid;
+    border-right: 5px solid;
 }
 
 .fullscreen .timeline__controls--left {
@@ -228,7 +227,7 @@ sub {
 
 .timeline__controls--center {
     position: relative;
-    width: 350px;
+    width: 325px;
 }
 
 .fullscreen .timeline__controls--center {
@@ -249,9 +248,9 @@ sub {
 }
 
 .timeline__controls--right {
-    width: 115px;
+    width: 125px;
     padding: 0 1px;
-    border-left: 2px solid;
+    border-left: 5px solid;
 }
 
 .fullscreen .timeline__controls--right {
@@ -341,10 +340,9 @@ sub {
     position: relative;
     z-index: 30;
     height: 100%;
-    line-height: 9px;
+    line-height: 17px;
     text-align: center;
     font-size: 8px;
-    font-weight: bold;
 }
 
 .fullscreen .timeline-chapters {
@@ -437,7 +435,7 @@ sub {
 
 .timeline-volume__container {
     position: relative;
-    width: 40px;
+    width: 55px;
 }
 
 .fullscreen .timeline-volume__container {
@@ -503,6 +501,42 @@ sub {
 .chapter-button {
     display: inline-block;
 }
+
+.footer {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 2460px;
+}
+
+.footer__pblogo {
+    margin-right: 10px;
+    width: 140px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.footer__poweredby-break {
+    display: none;
+}
+
+.footer__copyright {
+    float: left;
+    width: 33%;
+}
+
+.footer__links {
+    float: right;
+    width: 33%;
+}
+
+.footer__copyright,
+.footer__links {
+    position: relative;
+    top: -28px;
+}
+
 
 .top-wrapper--no-cta.top-wrapper--no-promo .header,
 .top-wrapper--no-cta.top-wrapper--no-promo .main,
