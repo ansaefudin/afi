@@ -29,6 +29,7 @@ sub {
 .body {
     font-family: Arial;
     -webkit-text-size-adjust: 100%;
+    width: 505px;
 }
 
 .main {
