@@ -248,7 +248,7 @@ sub {
 }
 
 .timeline__controls--right {
-    width: 110px;
+    width: 115px;
     padding: 0 1px;
     border-left: 2px solid;
 }
