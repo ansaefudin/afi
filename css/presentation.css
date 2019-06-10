@@ -376,8 +376,8 @@
 
     display: block;
     margin: 0 auto;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: url("../images/timeline_controls.png") no-repeat;
     background-position-y: 50%;
     background-position: var(--timeline-bgX) var(--timeline-bgY);
@@ -403,8 +403,8 @@
 }
 
 .timeline__button-icon--play {
-    width: 11px;
-    height: 11px;
+    width: 16px;
+    height: 16px;
     background-position-x: calc((100%/26) * 0);
     --timeline-bgX: calc((100%/26) * 0);
 }

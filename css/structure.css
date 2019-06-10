@@ -436,7 +436,7 @@ sub {
 
 .timeline-volume__container {
     position: relative;
-    width: 55px;
+    width: 40px;
 }
 
 .fullscreen .timeline-volume__container {
