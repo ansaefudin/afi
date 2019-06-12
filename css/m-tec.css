@@ -20,7 +20,7 @@
 	.content {
 		background: url("../images/background/afi-720p.png");
 		background-repeat: no-repeat;
-		background-position: center bottom;
+		background-position: center top;
 		background-size: cover;
 	}
 
@@ -54,19 +54,33 @@
     	background-position: center;
     	background-size: contain;
     	float:left;
+    	margin-top: -10px;
+    	margin-bottom: -10px;
 	}
 
 	.padding {
 		font-family: 'Source Sans Pro', sans-serif;
     	-webkit-text-size-adjust: 100%;
-    	font-size: 14px;
-		margin-top: 60px;
-		width: 520px;
+    	font-size: 14.5px;
+		margin-top: 45px;
+		width: 530px;
 		text-align: justify;
 	}
 
 	.pad {
-		margin-bottom: 1px;
+		margin-left: 15px;
+	}
+
+	.b-pad {
+		margin-bottom: 5px;
+	}
+
+	.e-pad {
+		margin-left: 102px;
+	}
+
+	b {
+		color: #003366;
 	}
 
 	.grid {
