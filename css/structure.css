@@ -1074,7 +1074,7 @@ sub {
         position: relative;
         display: block;
         margin: 0 auto;
-        width: 580px;
+        width: 550px;
     }
 
     .main::after {
