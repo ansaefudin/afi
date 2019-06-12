@@ -27,8 +27,10 @@ sub {
 
 /** Main Styling (for 1080p) **/
 .body {
-    font-family: Arial;
     -webkit-text-size-adjust: 100%;
+     min-height: 750px;
+     padding-top: 65px;
+     overflow-x: hidden;
 }
 
 .main {

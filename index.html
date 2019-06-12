@@ -36,6 +36,7 @@
 
     <!-- Set this to the twitter username for the landing page (if it exists) eg. "@eov_landing_page" -->
     <!-- <meta name="twitter:site" content="@username">-->
+    <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/structure.css" rel="stylesheet">
     <link href="./css/presentation.css" rel="stylesheet">
     <link href="./css/m-tec.css" rel="stylesheet">
@@ -82,19 +83,22 @@
 </head>
 
 <body class="body content">
-    <!-- Header -->
-    <div class="navbar">
-      <a href=""><img src="images/axa.png" class="logo"></a>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href=""><img src="images/axa.png" class="logo"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="padding">
+            <p class="">Terima Kasih atas kepercayaan Anda kepada AXA Financial Indonesia sebagai mitra perlindungan jiwa Anda dan keluarga</p>
+            <p>Untuk kemudahan Anda memahami manfaat perlindungan dari produk asuransi yang anda miliki, saksikan video manfaat produk berikut.*</p>
+        </div>
     </div>
 
-    <!-- Main -->
-    <div class="mains mains--p">
-        <div class="mians--pad">
-            <p class="mians--pad-text">Terima Kasih atas kepercayaan Anda kepada AXA Financial Indonesia sebagai mitra perlindungan jiwa Anda dan keluarga</p>
-        </div>
-        <div class="mians--pad2">
-            <p class="mians--pad-text">Untuk kemudahan Anda memahami manfaat perlindungan dari produk asuransi yang anda miliki, saksikan video manfaat produk berikut.*</p>
-        </div>
+    <div class="container-fluid">
         <div class="frm">
             <div id="jsTopWrapper" class="top-wrapper--no-cta top-wrapper--no-promo">
                 <div id="jsMain" class="main">
@@ -109,7 +113,7 @@
                         <br class="clearfix">
                         <!-- Left Timeline -->
                         <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
-                        <!-- <div id="jsTimelineCover" class="timeline__cover"></div> -->
+                        <div id="jsTimelineCover" class="timeline__cover"></div>
 
                                 <div class="timeline__controls timeline__controls--left">
                                     <button id="jsSkipBackButton" type="button" class="jsTimelineButton timeline__button timeline__button--skip-back no-focus">
@@ -315,40 +319,38 @@
                 </div>
             </div>
         </div>
-        <br class="clearfix">
-        <div class="grid">
-            <div class="item1">
-                <div class="mians--pad3">
-                    <p class="mians--pad-text">Terkait pertanyaan seputar polis Anda, hubungi AXA</p>
-                </div>
-                <div class="mians--pad4">
-                    <p class="mians--pad-text">Customer Call Center : 1500-940</p>
-                </div>
-                <div class="mians--pad5">
-                    <p class="mians--pad-text">E-mail<d class="pad"></d>:<b> customer@axa-financial.co.id</b></p>
-                </div>
-                <div class="mians--pad6">
-                    <p class="mians--pad-text">Seluruh manfaat dan ketentuan polis mengacu pada buku polis</b></p>
-                </div>
-            </div>
-            <div class="item2" align="Center">
-                <div class="mains-buttons">
-                    <a href="" class="btn mains-buttons-offset"><i class="round round-lg round-blue fa fa-phone"></i><y class="f--pad">1500-940</y></a>
-                    <a href="" class="btn"><i class="round round-lg round-blue fa fa-globe"></i><y class="f--pad-b">www.axa.co.id</y></a>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="">Terkait pertanyaan seputar polis Anda, hubungi AXA</p>
+                        <p class="">Customer Call Center : 1500-940</p>
+                        <p class="">E-mail<d class="pad"></d>:<b> nasabah@axa-financial.co.id</b></p>
+                        <p class="">Seluruh manfaat dan ketentuan polis mengacu pada buku polis</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mains-buttons">
+                            <a href="" class="btn mains-buttons-offset"><i class="round round-lg round-blue fa fa-phone"></i><y class="f--pad">1500-940</y></a>
+                            <a href="" class="btn"><i class="round round-lg round-blue fa fa-globe"></i><y class="f--pad-b">www.axa.co.id</y></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- end main -->
 
-    <!-- footer -->
     <div class="footer">
       <p class="font">Copyright 2019 AXA Indonesia</p>
       <img src="images/footer.png">
     </div>
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="bootstrap.js"></script>
     <script src="js/modernizr-custom.js"></script>
     <script src="js/settings.js"></script>
     <script src="js/landing-page.js"></script>
