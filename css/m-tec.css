@@ -18,7 +18,7 @@
 /* HD, Leptop HiDPI, MDPI, Touch */
 @media screen and (max-width: 1640px) {
 	.content {
-		background: url("../images/background/afi-480p.png");
+		background: url("../images/background/afi-720p.png");
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;
