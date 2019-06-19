@@ -28,7 +28,7 @@ sub {
 /** Main Styling (for 1080p) **/
 .body {
     -webkit-text-size-adjust: 100%;
-     min-height: 750px;
+     min-height: 700px;
      padding-top: 65px;
      overflow-x: hidden;
 }
@@ -1195,7 +1195,7 @@ sub {
     }
 
     .player__wrapper {
-        width: 480px;
+        width: 550px;
         height: 270px;
     }
 
