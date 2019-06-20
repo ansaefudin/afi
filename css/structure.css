@@ -1091,10 +1091,9 @@ sub {
     }
 
     .fullscreen.less-16-9 .main {
-        margin-top: calc((100vh - (100vw * 8/16)) / 2);
-        height: calc(100vw * 8/16);
-        width: 100%;
-        margin-left: -55px;
+        margin-top: calc((100vh - (100vw * 9/16)) / 2);
+        height: calc(100vw * 9/16);
+        width: 120%;
     }
 
     .cta--side {
@@ -1241,6 +1240,11 @@ sub {
     .timeline,
     .timeline__controls {
         height: 35px;
+    }
+
+    .fullscreen .timeline,
+    .fullscreen .timeline__controls {
+        height: 55px;
     }
 
     .fullscreen .timeline {
