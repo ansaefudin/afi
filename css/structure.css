@@ -1094,6 +1094,7 @@ sub {
         margin-top: calc((100vh - (100vw * 8/16)) / 2);
         height: calc(100vw * 8/16);
         width: 100%;
+        margin-left: -55px;
     }
 
     .cta--side {
