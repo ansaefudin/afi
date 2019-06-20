@@ -123,7 +123,7 @@ var Translations = {
             "label": "<p>Thank You<br/>Speech</p>",
             "states": [
                 {
-                    "cardId": "77a834f0",
+                    "cardId": "7ccfe36b",
                     "width": 15
                 }
             ]
@@ -132,7 +132,7 @@ var Translations = {
             "label": "<p>Verification<br/>Customer Data</p>",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "a7e0f675",
                     "width": 20
                 }
             ]
@@ -141,7 +141,7 @@ var Translations = {
             "label": "<p>Product<br/>Info</p>",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "50c10b64",
                     "width": 12
                 }
             ]
@@ -150,7 +150,7 @@ var Translations = {
             "label": "<p>Product<br/>Detail</p>",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "5be243e3",
                     "width": 13
                 }
             ]
@@ -159,7 +159,7 @@ var Translations = {
             "label": "<p>Legal<br/>Statment</p>",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "4978732b",
                     "width": 14
                 }
             ]
@@ -168,7 +168,7 @@ var Translations = {
             "label": "<p>Close<br>Speech",
             "states": [
                 {
-                    "cardId": "7b0123a5",
+                    "cardId": "b9d88f61",
                     "width": 12
                 }
             ]
