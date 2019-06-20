@@ -1086,7 +1086,7 @@ sub {
 
     .fullscreen .main,
     .fullscreen {
-        width: calc(100vh * 16/8);
+        width: calc(100vh * 15/8);
         height: 100%;
     }
 
@@ -1094,7 +1094,6 @@ sub {
         margin-top: calc((100vh - (100vw * 9/16)) / 2);
         height: calc(100vw * 9/16);
         width: 100%;
-        margin-left: -150px;
     }
 
     .cta--side {
@@ -1559,7 +1558,7 @@ sub {
     }
 
     .fullscreen .top-wrapper--no-cta .player {
-        width: 100%;
+        width: 200%;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
