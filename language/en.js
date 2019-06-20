@@ -46,7 +46,26 @@ var Translations = {
      * If the CTA buttons are not required then remove the content from the variable - "CtaButtonSettings": {};
      */
     "CtaButtonSettings": {
-       
+        "button1": {
+            "card": "d1b4d742",
+            "label": "Contact",
+            "icon": "contact"
+        },
+        "button2": {
+            "card": "d1b4d742",
+            "label": "Email",
+            "icon": "email"
+        },
+        "button3": {
+            "card": "d1b4d742",
+            "label": "Website",
+            "icon": "website"
+        },
+        "button4": {
+            "card": "d1b4d742",
+            "label": "Survey",
+            "icon": "save"
+        }
     },
 
     /**
@@ -63,7 +82,20 @@ var Translations = {
      * If the promo area is not required then remove the content from the variable - "PromoSettings": {};
      */
     "PromoSettings": {
-       
+        "promo1": {
+            "trackingName": "promo1",
+            "url": "http://example.com/",
+            "label": "Promo (Top)",
+            "desktopImage": "./images/promo_portrait.png",
+            "mobileImage": "./images/promo_landscape.png"
+        },
+        "promo2": {
+            "trackingName": "promo2",
+            "url": "http://example.com/",
+            "label": "Promo (Bottom)",
+            "desktopImage": "./images/promo_portrait.png",
+            "mobileImage": "./images/promo_landscape.png"
+        }
     },
 
 
