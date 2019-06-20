@@ -1091,8 +1091,8 @@ sub {
     }
 
     .fullscreen.less-16-9 .main {
-        margin-top: calc((100vh - (100vw * 9/16)) / 2);
-        height: calc(100vw * 9/16);
+        margin-top: calc((100vh - (100vw * 8/16)) / 2);
+        height: calc(100vw * 8/16);
         width: 100%;
     }
 
