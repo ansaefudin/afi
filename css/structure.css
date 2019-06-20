@@ -1093,7 +1093,8 @@ sub {
     .fullscreen.less-16-9 .main {
         margin-top: calc((100vh - (100vw * 9/16)) / 2);
         height: calc(100vw * 9/16);
-        width: 120%;
+        width: 100%;
+        margin-left: -150px;
     }
 
     .cta--side {
