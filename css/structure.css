@@ -671,7 +671,7 @@ sub {
     }
 
     .fullscreen .player {
-        width: 95%;
+        width: 100%;
         height: 95%;
         margin: 0;
     }
@@ -1086,7 +1086,7 @@ sub {
 
     .fullscreen .main,
     .fullscreen {
-        width: calc(100vh * 15/8);
+        width: calc(100vh * 16/9);
         height: 100%;
     }
 
@@ -1187,7 +1187,7 @@ sub {
     }
 
     .fullscreen .player {
-        width: 95%;
+        width: 100%;
         height: 95%;
         margin: 0;
     }
