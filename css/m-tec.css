@@ -88,15 +88,6 @@ b {
 	text-shadow: 0px -1px 0px #FFFFFF;
 }
 
-.btn:hover {
-	background: linear-gradient(-600deg, #FFFFFF 20%, #003366 80%);
-}
-
-.btn:active {
-	position: relative;
-		top: 1px;
-}
-
 .round {
 	display: inline-block;
 	height: 10px;
