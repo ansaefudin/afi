@@ -64,35 +64,20 @@ b {
 }
 
 .down--btn {
-	padding: 0 10px;
+	padding: 0 5px;
 }
 
 .down--btn-i {
 	margin: 0 15px;
 }
 
-.btn-axa {
-	margin-top: 50px;
-	background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
-	border-radius: 5px;
-	border: 1px solid #003366;
-	display: inline-block;
-	cursor: pointer;
-	color: #003366;
-	padding: 5px 5px;
-	width: 200px;
-	font-family: 'MyriadPro-Regular';
-	font-size: 22px;
-	font-weight: bold;
-	text-decoration: none;
-	text-shadow: 0px -1px 0px #FFFFFF;
-}
+
 
 .round {
 	display: inline-block;
 	height: 10px;
 	width: 10px;
-	line-height: 12px;
+	line-height: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	background-color: #222;    
@@ -102,25 +87,34 @@ b {
     height: 25px;
     width: 25px;
     line-height: 25px;
-    -moz-border-radius: 25px;
+    -moz-border-radius: 20px;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .round-blue {
     background-color: #003366;
 }
 
-.btn-round {
-	margin-left: -25px;
+.left--lebel {
+	background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
+	border: 1px solid #003366;
+	border-radius: 5px;
+	width: 200px;
+	height: 35px;
+}
+.label-text {
+	font-family: 'MyriadPro-Regular';
+	font-size: 22px;
+	padding: 0 25px;
 }
 
-.btn-round-font {
-	font-size: 18px;
-}
-
-.btn-left {
-	margin-right: 55px;
+.label-text-ii {
+	font-family: 'MyriadPro-Regular';
+	font-size: 19px;
+	padding: 0 26px;
+	padding-top: 2px;
 }
 
 .footer {
