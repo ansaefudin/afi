@@ -1279,7 +1279,7 @@ sub {
     }
 
     .fullscreen .timeline__controls--center {
-        width: 90%;
+        width: 85%;
         position: relative;
     }
 
