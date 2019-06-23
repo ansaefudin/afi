@@ -1306,11 +1306,11 @@
 
     .timeline__button--settings,
     .timeline__button--fullscreen {
-        width: 12px;
+        width: 9px;
     }
 
     .timeline__button--volume {
-        width: 20px;
+        display: none;
     }
 
     .timeline__settings-popout,

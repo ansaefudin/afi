@@ -1357,7 +1357,7 @@ sub {
     }
 
     .timeline__controls--right {
-        width: 80px;
+        width: 40px;
     }
 
     .fullscreen .timeline--no-volume .timeline__controls--left {
@@ -1377,13 +1377,12 @@ sub {
     }
 
     .fullscreen .timeline--no-volume .timeline__controls--right {
-        width: 45px;
+        width: 30px;
         text-align: center;
     }
 
     .timeline--no-volume .timeline__controls--right {
-        width: 40px;
-        text-align: center;
+        width: 35px;
     }
 
     .timeline-chapters {
