@@ -1299,18 +1299,20 @@
         width: 20px;
     }
 
-    .fullscreen .timeline__button--settings,
-    .fullscreen .timeline__button--fullscreen {
+    .fullscreen .timeline__button--settings {
         width: 10px;
     }
 
-    .timeline__button--settings,
+    .timeline__button--settings {
+        width: 9px;
+    }
+
     .timeline__button--fullscreen {
-        width: 55px;
+        width: 555px;
     }
 
     .timeline__button--volume {
-        display: none;
+        display: no
     }
 
     .timeline__settings-popout,
