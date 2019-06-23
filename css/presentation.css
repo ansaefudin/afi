@@ -1306,8 +1306,7 @@
 
     .timeline__button--settings,
     .timeline__button--fullscreen {
-        width: 15.1px;
-        padding-left: 10px;
+        width: 12px;
     }
 
     .timeline__button--volume {
