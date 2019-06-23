@@ -1369,11 +1369,11 @@ sub {
     }
 
     .fullscreen .timeline--no-volume .timeline__controls--center {
-        width: 245px;
+        width: 230px;
     }
 
     .timeline--no-volume .timeline__controls--center {
-        width: 245px;
+        width: 200px;
     }
 
     .fullscreen .timeline--no-volume .timeline__controls--right {
@@ -1382,13 +1382,13 @@ sub {
     }
 
     .timeline--no-volume .timeline__controls--right {
-        width: 35px;
+        width: 50px;
     }
 
     .timeline-chapters {
         line-height: 10px;
         text-align: center;
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .fullscreen .timeline-chapters {
