@@ -1382,7 +1382,7 @@ sub {
     }
 
     .timeline--no-volume .timeline__controls--right {
-        width: 50px;
+        width: 20px;
     }
 
     .timeline-chapters {
