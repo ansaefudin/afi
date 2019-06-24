@@ -1106,11 +1106,11 @@ sub {
 
     .timeline,
     .timeline__controls {
-        height: 35px;
+        height: 25px;
     }
 
     .timeline__controls--left {
-        width: 100px;
+        width: 85px;
     }
 
     .timeline__controls--center {
@@ -1130,7 +1130,7 @@ sub {
     }
 
     .timeline__controls--right {
-        width: 180px;
+        width: 125px;
     }
 
     .timeline--no-volume .timeline__controls--right {
@@ -1143,7 +1143,7 @@ sub {
     }
 
     .timeline-volume {
-        width: 70px;
+        width: 45px;
     }
 
     .fullscreen .timeline-volume {
@@ -1155,7 +1155,7 @@ sub {
     }
 
     .timeline-volume__bg {
-        margin-top: 15px;
+        margin-top: 9px;
         height: 8px;
     }
 
@@ -1168,16 +1168,16 @@ sub {
     }
 
     .timeline-volume__container {
-        width: 62px;
+        width: 22px;
     }
 
     .timeline-chapters {
         position: relative;
         z-index: 30;
         height: 100%;
-        line-height: 18px;
+        line-height: 13px;
         text-align: center;
-        font-size: 10.2px;
+        font-size: 10px;
     }
 
     .fullscreen .timeline-volume__container {
@@ -1190,14 +1190,14 @@ sub {
 
     .timeline-volume__level {
         top: -8px;
-        padding-left: 8px;
+        padding-left: 20px;
         height: 8px;
     }
 
     .timeline-volume__ball {
         right: -8px;
-        width: 16px;
-        height: 16px;
+        width: 14px;
+        height: 14px;
     }
 
 }

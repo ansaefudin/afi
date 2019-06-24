@@ -1083,14 +1083,14 @@
     }
 
     .timeline__button-icon {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
     }
 
     .timeline__button-icon--play,
     .timeline__button-icon--pause {
-        width: 16px;
-        height: 16px;
+        width: 11px;
+        height: 11px;
     }
 
     .fullscreen .timeline__button-icon {
@@ -1107,7 +1107,7 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 32px;
+        width: 25px;
     }
 
     .timeline__button--settings,
@@ -1116,7 +1116,7 @@
     }
 
     .timeline__button--volume {
-        width: 40px;
+        width: 20px;
     }
 
     .timeline__settings-popout,
