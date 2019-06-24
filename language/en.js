@@ -6,7 +6,6 @@ var Translations = {
     "SettingsButtonText": "Settings",
     "ResumeVideoPlayback": "Resume Video Playback",
 
-
     "QualityMenuText": "Quality",
     "QualityAutoText": "Auto",
     "LanguageMenuText": "Language",
@@ -124,7 +123,7 @@ var Translations = {
             "label": "<p>Thank You<br/>Speech</p>",
             "states": [
                 {
-                    "cardId": "7ccfe36b",
+                    "cardId": "5cf9a741",
                     "width": 15
                 }
             ]
@@ -133,7 +132,7 @@ var Translations = {
             "label": "<p>Verification<br/>Customer Data</p>",
             "states": [
                 {
-                    "cardId": "a7e0f675",
+                    "cardId": "11e47938",
                     "width": 20
                 }
             ]
