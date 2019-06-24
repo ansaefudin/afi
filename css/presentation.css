@@ -1303,16 +1303,13 @@
         width: 10px;
     }
 
-    .timeline__button--settings {
+    .timeline__button--settings,
+    .timeline__button--fullscreen {
         width: 9px;
     }
 
-    .timeline__button--fullscreen {
-        width: 555px;
-    }
-
     .timeline__button--volume {
-        display: no
+        display: none;
     }
 
     .timeline__settings-popout,
