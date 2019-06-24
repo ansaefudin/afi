@@ -1070,24 +1070,24 @@ sub {
 
 @media screen and (max-width: 1640px) {
     .main {
-        width: 570px;
+        width: 551px;
     }
 
     .top-wrapper--no-cta .main {
-        width: 570px;
+        width: 551px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
-        width: 570px;
+        width: 551px;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--center,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--center {
-        width: 760px;
+        width: 551px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline--no-volume .timeline__controls--center {
-        width: 625px;
+        width: 551px;
     }
     .cta--side,
     .promo--side {
@@ -1095,7 +1095,7 @@ sub {
     }
 
     .player__wrapper {
-        width: 621px;
+        width: 551px;
         height: 310px;
     }
 
