@@ -168,7 +168,7 @@ var Translations = {
             "label": "<p>Close<br>Speech",
             "states": [
                 {
-                    "cardId": "b9d88f61",
+                    "cardId": "b068d041",
                     "width": 12
                 }
             ]
