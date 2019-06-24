@@ -1070,15 +1070,15 @@ sub {
 
 @media screen and (max-width: 1640px) {
     .main {
-        width: 621px;
+        width: 570px;
     }
 
     .top-wrapper--no-cta .main {
-        width: 621px;
+        width: 570px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
-        width: 621px;
+        width: 570px;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--center,
