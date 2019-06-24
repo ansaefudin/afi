@@ -1099,11 +1099,6 @@ sub {
         height: 310px;
     }
 
-    .fullscreen .player__wrapper {
-        width: 100%;
-        height: auto;
-    }
-
     .timeline,
     .timeline__controls {
         height: 35px;
