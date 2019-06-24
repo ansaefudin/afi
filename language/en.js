@@ -6,6 +6,7 @@ var Translations = {
     "SettingsButtonText": "Settings",
     "ResumeVideoPlayback": "Resume Video Playback",
 
+
     "QualityMenuText": "Quality",
     "QualityAutoText": "Auto",
     "LanguageMenuText": "Language",
