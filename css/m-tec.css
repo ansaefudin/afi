@@ -38,13 +38,13 @@
 	}
 
 	.up-text {
-		width: 570px;
+		width: 635px;
 		padding: 0 25px;
 	}
 
 	.up-text p {
 		font-family: 'MyriadPro-Regular';
-		font-size: 14px;
+		font-size: 15px;
 		color: black;
 		text-shadow: 0px -1px 0px #FFFFFF;
 		text-align: justify;
@@ -53,12 +53,12 @@
 	.main-video {
 		padding: 0 10px;
 		width: 750px;
-		margin: 0 -108px;
+		margin: 0 -60px;
 	}
 
 	.down-text {
 		font-family: 'MyriadPro-Regular';
-		font-size: 14px;
+		font-size: 15px;
 		color: black;
 		text-shadow: 0px -1px 0px #FFFFFF;
 		text-align: justify;
@@ -70,10 +70,6 @@
 
 	.down--btn-i {
 		margin: 0 15px;
-	}
-
-	.btn-label {
-		margin-left: -62px;
 	}
 
 	.round {

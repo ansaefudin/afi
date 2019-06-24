@@ -1070,24 +1070,24 @@ sub {
 
 @media screen and (max-width: 1640px) {
     .main {
-        width: 551px;
+        width: 621px;
     }
 
     .top-wrapper--no-cta .main {
-        width: 551px;
+        width: 621px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
-        width: 551px;
+        width: 621px;
     }
 
     .top-wrapper--no-promo .timeline--no-volume .timeline__controls--center,
     .top-wrapper--no-cta .timeline--no-volume .timeline__controls--center {
-        width: 551px;
+        width: 760px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline--no-volume .timeline__controls--center {
-        width: 551px;
+        width: 625px;
     }
     .cta--side,
     .promo--side {
@@ -1095,7 +1095,7 @@ sub {
     }
 
     .player__wrapper {
-        width: 551px;
+        width: 621px;
         height: 310px;
     }
 
@@ -1106,11 +1106,11 @@ sub {
 
     .timeline,
     .timeline__controls {
-        height: 25px;
+        height: 35px;
     }
 
     .timeline__controls--left {
-        width: 85px;
+        width: 100px;
     }
 
     .timeline__controls--center {
@@ -1130,7 +1130,7 @@ sub {
     }
 
     .timeline__controls--right {
-        width: 125px;
+        width: 180px;
     }
 
     .timeline--no-volume .timeline__controls--right {
@@ -1143,7 +1143,7 @@ sub {
     }
 
     .timeline-volume {
-        width: 45px;
+        width: 70px;
     }
 
     .fullscreen .timeline-volume {
@@ -1155,7 +1155,7 @@ sub {
     }
 
     .timeline-volume__bg {
-        margin-top: 9px;
+        margin-top: 15px;
         height: 8px;
     }
 
@@ -1168,16 +1168,16 @@ sub {
     }
 
     .timeline-volume__container {
-        width: 22px;
+        width: 62px;
     }
 
     .timeline-chapters {
         position: relative;
         z-index: 30;
         height: 100%;
-        line-height: 13px;
+        line-height: 18px;
         text-align: center;
-        font-size: 10px;
+        font-size: 10.2px;
     }
 
     .fullscreen .timeline-volume__container {
@@ -1190,14 +1190,14 @@ sub {
 
     .timeline-volume__level {
         top: -8px;
-        padding-left: 20px;
+        padding-left: 8px;
         height: 8px;
     }
 
     .timeline-volume__ball {
         right: -8px;
-        width: 14px;
-        height: 14px;
+        width: 16px;
+        height: 16px;
     }
 
 }
