@@ -32,14 +32,14 @@
 	}
 
 	.main-axa {
-		margin: 8em 8em;
+		margin-top: 50px;
 		width: 108em;
 		margin-left: 0;
 	}
 
 	.up-text {
 		width: 635px;
-		padding: 0 25px;
+		padding: 0 5px;
 	}
 
 	.up-text p {
