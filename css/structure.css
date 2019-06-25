@@ -1168,13 +1168,18 @@ sub {
 
     .fullscreen .player__wrapper {
         width: 100%;
-        height: 100px;
+        height: 100%;
     }
 
     .player__iframe {
         position: relative;
         width: 100%;
         height: 100%;
+    }
+
+    .fullscreen .player__iframe {
+        width: 100%;
+        height: 80%;
     }
 
     .timeline {
