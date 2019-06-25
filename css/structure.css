@@ -1079,19 +1079,6 @@ sub {
         height: 100%;
     }
 
-    .fullscreen .play-resume-screen {
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-    display: block;
-    height: 98%;
-    position: absolute;
-    width: 108%;
-    z-index: 500!important;
-    margin-top: 28px;
-    margin-left: -38px;
-    }
-
     .player {
         float: left;
     }
@@ -1153,7 +1140,7 @@ sub {
 
     .fullscreen .timeline {
         height: 5%;
-        width: 100%;
+        width: 95%;
         z-index: 2;
     }
 
