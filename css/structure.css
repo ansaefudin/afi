@@ -52,13 +52,13 @@ sub {
 .fullscreen .main,
 .fullscreen {
     width: calc(100vh * 16/9);
-    height: 100%;
+    height: 111%;
 }
 
 .fullscreen.less-16-9 .main {
     margin-top: calc((100vh - (100vw * 9/16)) / 2);
     height: calc(100vw * 9/16);
-    width: 100%;
+    width: 111%;
 }
 
 .cta--side {
@@ -562,18 +562,6 @@ sub {
         content: "";
         display: block;
         clear: both;
-    }
-
-    .fullscreen .main,
-    .fullscreen {
-        width: calc(100vh * 16/9);
-        height: 100%;
-    }
-
-    .fullscreen.less-16-9 .main {
-        margin-top: calc((100vh - (100vw * 9/16)) / 2);
-        height: calc(100vw * 9/16);
-        width: 100%;
     }
 
     .cta--side {
@@ -1080,18 +1068,6 @@ sub {
         content: "";
         display: block;
         clear: both;
-    }
-
-    .fullscreen .main,
-    .fullscreen {
-        width: calc(100vh * 16/9);
-        height: 105%;
-    }
-
-    .fullscreen.less-16-9 .main {
-        margin-top: calc((100vh - (100vw * 9/16)) / 2);
-        height: calc(100vw * 9/16);
-        width: 105%;
     }
 
     .cta--side {
