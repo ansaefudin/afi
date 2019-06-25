@@ -612,6 +612,7 @@
 	.main-axa {
 		margin: 55px -5px;
 		width: 80px;
+		margin-top: -20px;
 	}
 
 	.up-text {
