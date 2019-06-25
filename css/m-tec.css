@@ -141,6 +141,11 @@
 	.booder--img {
 		margin-top: -25px;
 	}
+
+	.main-table {
+		width: 550px;
+		text-align: justify;
+	}
 }
 
 @media screen and (max-width: 1230px) and (orientation: portrait) {
