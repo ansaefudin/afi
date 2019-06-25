@@ -1069,6 +1069,7 @@ sub {
 
     .fullscreen .main {
         width: 106%;
+        height: 95%;
     }
     .fullscreen {
         width: 95%;
