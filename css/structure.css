@@ -1069,7 +1069,6 @@ sub {
 
     .fullscreen .main {
         width: calc(100vh * 16/9);
-        height: 100%;
     }
     .fullscreen {
         width: 95%;
