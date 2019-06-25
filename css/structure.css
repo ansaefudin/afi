@@ -1070,6 +1070,18 @@ sub {
         clear: both;
     }
 
+    .fullscreen .main,
+    .fullscreen {
+        width: calc(100vh * 16/9);
+        height: 100%;
+    }
+
+    .fullscreen.less-16-9 .main {
+        margin-top: calc((100vh - (100vw * 9/16)) / 2);
+        height: calc(100vw * 9/16);
+        width: 100%;
+    }
+
     .cta--side {
         float: left;
         width: 80px;
