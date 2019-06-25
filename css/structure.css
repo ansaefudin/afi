@@ -1180,6 +1180,12 @@ sub {
         font-size: 10.2px;
     }
 
+    .fullscreen .timeline-chapters {
+        line-height: 12px;
+        text-align: center;
+        font-size: 12px;
+    }
+
     .fullscreen .timeline-volume__container {
         width: calc(100% - 8px);
     }
