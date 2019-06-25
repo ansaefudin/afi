@@ -165,7 +165,7 @@ sub {
 
 .fullscreen .player__wrapper {
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 .player__iframe {
@@ -1157,7 +1157,7 @@ sub {
 
     .fullscreen .player {
         width: 100%;
-        height: 85%;
+        height: 52%;
         margin: 0;
     }
 
