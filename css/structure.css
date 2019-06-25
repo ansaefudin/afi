@@ -1058,9 +1058,6 @@ sub {
 
 @media screen and (max-width: 1640px) {
     .main {
-        position: relative;
-        display: block;
-        margin: 0 auto;
         width: 620px;
     }
 
