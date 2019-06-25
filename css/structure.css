@@ -1157,7 +1157,7 @@ sub {
 
     .fullscreen .player {
         width: 100%;
-        height: 52%;
+        height: 95%;
         margin: 0;
     }
 
