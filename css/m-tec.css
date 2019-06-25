@@ -144,8 +144,7 @@
 	}
 
 	.main-table {
-		width: 550px;
-		text-align: justify;
+		width: 650px;
 	}
 }
 
@@ -245,7 +244,7 @@
 		border-radius: 5px;
 		width: 350px;
 		height: 60px;
-		margin: 55px 55px; 
+		margin: 15px 156px; 
 	}
 	.label-text {
 		font-family: 'MyriadPro-Regular';
@@ -289,9 +288,14 @@
 		height: auto;
 		width: 100%;
 	}
+
+	.btn-label {
+		margin: 15px 65px;
+		float: left;
+	}
 }
 
-@media screen and (max-width: 820px) {
+/*@media screen and (max-width: 820px) {
 	.body {
 		background: url("../images/background/L-ipad-mini.png");
 		background-repeat: no-repeat;
@@ -386,8 +390,7 @@
 		border: 1px solid #003366;
 		border-radius: 5px;
 		width: 250px;
-		height: 40px;
-		margin: 15px 0; 
+		height: 40px; 
 	}
 	.label-text {
 		font-family: 'MyriadPro-Regular';
@@ -432,7 +435,7 @@
 		width: 100%;
 	}
 }
-
+*/
 @media screen and (max-width: 820px) and (orientation: portrait) {
 	.body {
 		background: url("../images/background/ipad-mini.png");
@@ -496,7 +499,7 @@
 	}
 
 	.min-row {
-		width: 150px;
+		width: 50px;
 	}
 
 	.round {
@@ -527,9 +530,10 @@
 		background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
 		border: 1px solid #003366;
 		border-radius: 5px;
-		width: 250px;
-		height: 40px;
-		margin: 15px 0; 
+		width: 350px;
+		height: 60px;
+		float: left;
+		margin: 15px -15px;
 	}
 	.label-text {
 		font-family: 'MyriadPro-Regular';
@@ -573,6 +577,15 @@
 		height: auto;
 		width: 100%;
 	}
+
+	.main-table {
+		width: 150px;
+	}
+
+	.min-row {
+		width: 350px;
+	}
+
 }
 
 @media screen and (max-width: 700px) and (orientation: portrait) {
@@ -643,17 +656,12 @@
 		text-align: justify;
 	}
 
-	.down--btn {
-		padding: 0 70px;
-	}
-
-	.down--btn-i {
-		margin: 0 15px;
+	.btn-label {
+		margin: 15px 15px;
 	}
 
 	.min-table {
-		width: 350px;
-		margin-left: -30px;
+		width: 400px;
 	}
 
 	.min-row {
