@@ -1162,7 +1162,7 @@ sub {
 
     .timeline__controls--center {
         position: relative;
-        width: 325px;
+        width: 400px;
     }
 
     .fullscreen .timeline__controls--center {
@@ -1171,7 +1171,7 @@ sub {
     }
 
     .timeline--no-volume .timeline__controls--center {
-        width: 325px;
+        width: 400px;
     }
 
     .fullscreen .timeline--no-volume .timeline__controls--center {
