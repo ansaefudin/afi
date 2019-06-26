@@ -1383,7 +1383,7 @@ sub {
     }
 
     .fullscreen.less-16-9 .timeline-chapters {
-        line-height: calc(5vw * 9/16);
+        line-height: calc(2vw * 9/16);
     }
 
     .timeline-contrast {
