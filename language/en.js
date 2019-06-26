@@ -159,7 +159,7 @@ var Translations = {
             "label": "<p>Legal<br/>Statment</p>",
             "states": [
                 {
-                    "cardId": "4978732b",
+                    "cardId": "780b0f32",
                     "width": 14
                 }
             ]
