@@ -1456,6 +1456,7 @@
 
     .timeline-progress {
         background-color: #0072b8;
+        width: 100%;
     }
 
     .timeline-chapters--seen {
